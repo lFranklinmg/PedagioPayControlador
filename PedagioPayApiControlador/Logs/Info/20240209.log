@@ -1,0 +1,499 @@
+2024-02-09T05:36:21.0694589-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-09T05:36:21.1867763-03:00 [DBG] Hosting starting
+2024-02-09T05:37:03.9361673-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-09T05:37:04.0227192-03:00 [DBG] Hosting starting
+2024-02-09T05:37:04.1669446-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-09T05:37:04.1700557-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-09T05:37:04.1736189-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-09T05:37:04.1759327-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-09T05:37:04.1785054-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-09T05:37:04.1813800-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-09T05:37:04.1842805-03:00 [INF] Hosting environment: "Development"
+2024-02-09T05:37:04.1867980-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-09T05:37:04.1897851-03:00 [DBG] Hosting started
+2024-02-09T05:37:04.3273495-03:00 [DBG] Connection id ""0HN19995GQ34V"" accepted.
+2024-02-09T05:37:04.3310524-03:00 [DBG] Connection id ""0HN19995GQ34V"" received FIN.
+2024-02-09T05:37:04.3342661-03:00 [DBG] Connection id ""0HN19995GQ34V"" started.
+2024-02-09T05:37:04.3511087-03:00 [DBG] Connection id ""0HN19995GQ34V"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T05:37:04.3583998-03:00 [DBG] Connection id ""0HN19995GQ34V"" disconnecting.
+2024-02-09T05:37:04.3705370-03:00 [DBG] Connection id ""0HN19995GQ34V"" stopped.
+2024-02-09T05:37:04.4432316-03:00 [DBG] Connection id ""0HN19995GQ350"" accepted.
+2024-02-09T05:37:04.5404895-03:00 [DBG] Connection id ""0HN19995GQ351"" accepted.
+2024-02-09T05:37:04.4744259-03:00 [DBG] Connection id ""0HN19995GQ350"" started.
+2024-02-09T05:37:04.5727023-03:00 [DBG] Connection id ""0HN19995GQ351"" started.
+2024-02-09T05:37:04.6351170-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger - -
+2024-02-09T05:37:04.8988174-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-09T05:37:04.9250326-03:00 [DBG] No candidates found for the request path '"/swagger"'
+2024-02-09T05:37:04.9285010-03:00 [DBG] Request did not match any endpoints
+2024-02-09T05:37:04.9746606-03:00 [DBG] Connection id ""0HN19995GQ350"" completed keep alive response.
+2024-02-09T05:37:04.9845123-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger - - - 301 0 - 354.6658ms
+2024-02-09T05:37:04.9923382-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-09T05:37:05.0015088-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-09T05:37:05.0156509-03:00 [DBG] Request did not match any endpoints
+2024-02-09T05:37:05.2468188-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-09T05:37:05.2782771-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-09T05:37:05.2881149-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui.css - -
+2024-02-09T05:37:05.3004688-03:00 [DBG] Connection id ""0HN19995GQ350"" completed keep alive response.
+2024-02-09T05:37:05.3037666-03:00 [DBG] No candidates found for the request path '"/swagger/swagger-ui.css"'
+2024-02-09T05:37:05.3080593-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 315.6526ms
+2024-02-09T05:37:05.3122605-03:00 [DBG] Request did not match any endpoints
+2024-02-09T05:37:05.2850921-03:00 [DBG] Connection id ""0HN19995GQ352"" accepted.
+2024-02-09T05:37:05.3208023-03:00 [DBG] Connection id ""0HN19995GQ352"" started.
+2024-02-09T05:37:05.3216523-03:00 [DBG] Connection id ""0HN19995GQ353"" accepted.
+2024-02-09T05:37:05.3272332-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui-bundle.js - -
+2024-02-09T05:37:05.3346923-03:00 [DBG] No candidates found for the request path '"/swagger/swagger-ui-bundle.js"'
+2024-02-09T05:37:05.3422540-03:00 [DBG] Request did not match any endpoints
+2024-02-09T05:37:05.3320968-03:00 [DBG] Connection id ""0HN19995GQ353"" started.
+2024-02-09T05:37:05.3316069-03:00 [DBG] Connection id ""0HN19995GQ354"" accepted.
+2024-02-09T05:37:05.3523904-03:00 [DBG] Connection id ""0HN19995GQ355"" accepted.
+2024-02-09T05:37:05.3480119-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui-standalone-preset.js - -
+2024-02-09T05:37:05.3595374-03:00 [DBG] Connection id ""0HN19995GQ354"" started.
+2024-02-09T05:37:05.3654869-03:00 [DBG] No candidates found for the request path '"/swagger/swagger-ui-standalone-preset.js"'
+2024-02-09T05:37:05.3774476-03:00 [DBG] Request did not match any endpoints
+2024-02-09T05:37:05.3634999-03:00 [DBG] Connection id ""0HN19995GQ355"" started.
+2024-02-09T05:37:05.3731802-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-09T05:37:05.4006489-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-09T05:37:05.4052196-03:00 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2024-02-09T05:37:05.4052189-03:00 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2024-02-09T05:37:05.4212171-03:00 [DBG] Connection id ""0HN19995GQ352"" completed keep alive response.
+2024-02-09T05:37:05.4137783-03:00 [DBG] Connection id ""0HN19995GQ353"" completed keep alive response.
+2024-02-09T05:37:05.4260155-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 98.7084ms
+2024-02-09T05:37:05.4396928-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 91.6582ms
+2024-02-09T05:37:05.4052192-03:00 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2024-02-09T05:37:05.4092473-03:00 [DBG] Connection id ""0HN19995GQ354"" completed keep alive response.
+2024-02-09T05:37:05.4582644-03:00 [DBG] Connection id ""0HN19995GQ351"" completed keep alive response.
+2024-02-09T05:37:05.4627380-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 89.5464ms
+2024-02-09T05:37:05.4664627-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui.css - - - 200 144929 text/css 178.4877ms
+2024-02-09T05:37:05.5404201-03:00 [DBG] Connection id ""0HN19995GQ355"" completed keep alive response.
+2024-02-09T05:37:05.5561247-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 155.4808ms
+2024-02-09T05:37:05.6951116-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-09T05:37:05.6987008-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-09T05:37:05.7032295-03:00 [DBG] Request did not match any endpoints
+2024-02-09T05:37:05.7271362-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/favicon-32x32.png - -
+2024-02-09T05:37:05.7433589-03:00 [DBG] No candidates found for the request path '"/swagger/favicon-32x32.png"'
+2024-02-09T05:37:05.7771632-03:00 [DBG] Request did not match any endpoints
+2024-02-09T05:37:05.7978201-03:00 [INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2024-02-09T05:37:05.8082981-03:00 [DBG] Connection id ""0HN19995GQ353"" completed keep alive response.
+2024-02-09T05:37:05.8373402-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/favicon-32x32.png - - - 200 628 image/png 108.0202ms
+2024-02-09T05:37:06.0042373-03:00 [DBG] Connection id ""0HN19995GQ355"" completed keep alive response.
+2024-02-09T05:37:06.0109139-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 315.7762ms
+2024-02-09T05:42:45.7451366-03:00 [DBG] Connection id ""0HN19995GQ350"" received FIN.
+2024-02-09T05:42:45.7521796-03:00 [DBG] Connection id ""0HN19995GQ352"" received FIN.
+2024-02-09T05:42:45.7544475-03:00 [DBG] Connection id ""0HN19995GQ351"" received FIN.
+2024-02-09T05:42:45.7557948-03:00 [DBG] Connection id ""0HN19995GQ353"" received FIN.
+2024-02-09T05:42:45.7649515-03:00 [DBG] Connection id ""0HN19995GQ350"" disconnecting.
+2024-02-09T05:42:45.7587477-03:00 [DBG] Connection id ""0HN19995GQ354"" received FIN.
+2024-02-09T05:42:45.7741013-03:00 [DBG] Connection id ""0HN19995GQ350"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T05:42:45.7768579-03:00 [DBG] Connection id ""0HN19995GQ352"" disconnecting.
+2024-02-09T05:42:45.7681321-03:00 [DBG] Connection id ""0HN19995GQ355"" received FIN.
+2024-02-09T05:42:45.7834304-03:00 [DBG] Connection id ""0HN19995GQ352"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T05:42:45.7861258-03:00 [DBG] Connection id ""0HN19995GQ351"" disconnecting.
+2024-02-09T05:42:45.7921671-03:00 [DBG] Connection id ""0HN19995GQ351"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T05:42:45.7951664-03:00 [DBG] Connection id ""0HN19995GQ352"" stopped.
+2024-02-09T05:42:45.7988794-03:00 [DBG] Connection id ""0HN19995GQ353"" disconnecting.
+2024-02-09T05:42:45.7951664-03:00 [DBG] Connection id ""0HN19995GQ350"" stopped.
+2024-02-09T05:42:45.8052084-03:00 [DBG] Connection id ""0HN19995GQ353"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T05:42:45.8081556-03:00 [DBG] Connection id ""0HN19995GQ354"" disconnecting.
+2024-02-09T05:42:45.8038581-03:00 [DBG] Connection id ""0HN19995GQ351"" stopped.
+2024-02-09T05:42:45.8149843-03:00 [DBG] Connection id ""0HN19995GQ354"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T05:42:45.8187214-03:00 [DBG] Connection id ""0HN19995GQ355"" disconnecting.
+2024-02-09T05:42:45.8177043-03:00 [DBG] Connection id ""0HN19995GQ353"" stopped.
+2024-02-09T05:42:45.8243016-03:00 [DBG] Connection id ""0HN19995GQ354"" stopped.
+2024-02-09T05:42:45.8251369-03:00 [DBG] Connection id ""0HN19995GQ355"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T05:42:45.8400792-03:00 [DBG] Connection id ""0HN19995GQ355"" stopped.
+2024-02-09T14:02:12.9307191-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-09T14:02:13.7704283-03:00 [DBG] Hosting starting
+2024-02-09T14:02:14.1028926-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-09T14:02:14.1053693-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-09T14:02:14.1078085-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-09T14:02:14.1108305-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-09T14:02:14.1155810-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-09T14:02:14.1191327-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-09T14:02:14.1236278-03:00 [INF] Hosting environment: "Development"
+2024-02-09T14:02:14.1277549-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-09T14:02:14.1315736-03:00 [DBG] Hosting started
+2024-02-09T14:02:14.4240557-03:00 [DBG] Connection id ""0HN19I3EKC417"" accepted.
+2024-02-09T14:02:14.4266316-03:00 [DBG] Connection id ""0HN19I3EKC417"" received FIN.
+2024-02-09T14:02:14.4295008-03:00 [DBG] Connection id ""0HN19I3EKC417"" started.
+2024-02-09T14:02:14.4470261-03:00 [DBG] Connection id ""0HN19I3EKC417"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T14:02:14.4536497-03:00 [DBG] Connection id ""0HN19I3EKC417"" disconnecting.
+2024-02-09T14:02:14.4628124-03:00 [DBG] Connection id ""0HN19I3EKC417"" stopped.
+2024-02-09T14:02:15.0997864-03:00 [DBG] Connection id ""0HN19I3EKC418"" accepted.
+2024-02-09T14:02:15.1320818-03:00 [DBG] Connection id ""0HN19I3EKC418"" started.
+2024-02-09T14:02:15.2025772-03:00 [DBG] Connection id ""0HN19I3EKC419"" accepted.
+2024-02-09T14:02:15.2139331-03:00 [DBG] Connection id ""0HN19I3EKC419"" started.
+2024-02-09T14:02:15.2846486-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-09T14:02:15.4989739-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-09T14:02:15.5348832-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-09T14:02:15.5384613-03:00 [DBG] Request did not match any endpoints
+2024-02-09T14:02:15.7881917-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-09T14:02:15.8248805-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-09T14:02:15.8347398-03:00 [DBG] Connection id ""0HN19I3EKC41A"" accepted.
+2024-02-09T14:02:15.8870441-03:00 [DBG] Connection id ""0HN19I3EKC418"" completed keep alive response.
+2024-02-09T14:02:15.8558946-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-09T14:02:15.8931762-03:00 [DBG] Connection id ""0HN19I3EKC41A"" started.
+2024-02-09T14:02:15.9016697-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 629.2152ms
+2024-02-09T14:02:15.9045307-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-09T14:02:15.9072700-03:00 [DBG] Connection id ""0HN19I3EKC419"" completed keep alive response.
+2024-02-09T14:02:15.9171931-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 61.2270ms
+2024-02-09T14:02:16.0140245-03:00 [DBG] Connection id ""0HN19I3EKC41A"" completed keep alive response.
+2024-02-09T14:02:16.0203343-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 115.8031ms
+2024-02-09T14:02:16.1886382-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-09T14:02:16.1960735-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-09T14:02:16.1998335-03:00 [DBG] Request did not match any endpoints
+2024-02-09T14:02:16.4121659-03:00 [DBG] Connection id ""0HN19I3EKC41A"" completed keep alive response.
+2024-02-09T14:02:16.4158413-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 227.1853ms
+2024-02-09T14:05:23.3244583-03:00 [DBG] Connection id ""0HN19I3EKC418"" received FIN.
+2024-02-09T14:05:23.3335677-03:00 [DBG] Connection id ""0HN19I3EKC419"" received FIN.
+2024-02-09T14:05:23.3382545-03:00 [DBG] Connection id ""0HN19I3EKC418"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T14:05:23.3426988-03:00 [DBG] Connection id ""0HN19I3EKC419"" disconnecting.
+2024-02-09T14:05:23.3267170-03:00 [DBG] Connection id ""0HN19I3EKC41A"" received FIN.
+2024-02-09T14:05:23.3616171-03:00 [DBG] Connection id ""0HN19I3EKC419"" stopped.
+2024-02-09T14:05:23.3637247-03:00 [DBG] Connection id ""0HN19I3EKC41A"" disconnecting.
+2024-02-09T14:05:23.3510011-03:00 [DBG] Connection id ""0HN19I3EKC418"" disconnecting.
+2024-02-09T14:05:23.3724476-03:00 [DBG] Connection id ""0HN19I3EKC41A"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T14:05:23.3741632-03:00 [DBG] Connection id ""0HN19I3EKC419"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T14:05:23.3811035-03:00 [DBG] Connection id ""0HN19I3EKC41A"" stopped.
+2024-02-09T14:05:23.3741498-03:00 [DBG] Connection id ""0HN19I3EKC418"" stopped.
+2024-02-09T14:07:39.8279641-03:00 [DBG] Connection id ""0HN19I3EKC41B"" accepted.
+2024-02-09T14:07:39.8434681-03:00 [DBG] Connection id ""0HN19I3EKC41B"" started.
+2024-02-09T14:07:39.8526499-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/CartaoUsuario/MeusCartoes - -
+2024-02-09T14:07:39.8713413-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/MeusCartoes"'
+2024-02-09T14:07:39.8849593-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/MeusCartoes"' is valid for the request path '"/CartaoUsuario/MeusCartoes"'
+2024-02-09T14:07:39.8943746-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)"'
+2024-02-09T14:07:39.9008787-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-09T14:07:39.9107831-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-09T14:07:39.9176023-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)"'
+2024-02-09T14:07:39.9767400-03:00 [INF] Route matched with "{action = \"BuscarCartaoUsuario\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult BuscarCartaoUsuario(System.String)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-09T14:07:39.9872992-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-09T14:07:39.9957043-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-09T14:07:40.0071137-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-09T14:07:40.0164239-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-09T14:07:40.0235317-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-09T14:07:40.0325004-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-09T14:07:40.3114742-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-09T14:07:40.3534325-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-09T14:07:40.3672327-03:00 [DBG] Attempting to bind parameter '"token"' of type '"System.String"' ...
+2024-02-09T14:07:40.3745142-03:00 [DBG] Attempting to bind parameter '"token"' of type '"System.String"' using the name '""' in request data ...
+2024-02-09T14:07:40.3847757-03:00 [DBG] Attempting to bind parameter '"token"' of type '"System.String"' using the name '""' in request data ...
+2024-02-09T14:07:40.3956847-03:00 [DBG] Done attempting to bind parameter '"token"' of type '"System.String"'.
+2024-02-09T14:07:40.4252124-03:00 [DBG] Done attempting to bind parameter '"token"' of type '"System.String"'.
+2024-02-09T14:07:40.4299375-03:00 [DBG] Done attempting to bind parameter '"token"' of type '"System.String"'.
+2024-02-09T14:07:40.4349997-03:00 [DBG] Attempting to validate the bound parameter '"token"' of type '"System.String"' ...
+2024-02-09T14:07:40.4748245-03:00 [DBG] Done attempting to validate the bound parameter '"token"' of type '"System.String"'.
+2024-02-09T14:07:40.4841195-03:00 [INF] Teste de serilog
+2024-02-09T14:08:17.5089046-03:00 [DBG] Entity Framework Core "7.0.14" initialized '"PEDAGIOPAYControladorContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"7.0.14"' with options: "None"
+2024-02-09T14:08:17.6966492-03:00 [DBG] Compiling query expression: "
+"'"DbSet<USUARIO>()
+    .Where(t => t.TOKEN == __token_0)
+    .Select(u => u.ID_USUARIO)
+    .FirstOrDefault()"'
+2024-02-09T14:08:18.1587603-03:00 [DBG] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<int>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT TOP(1) u.ID_USUARIO
+        FROM USUARIO AS u
+        WHERE u.TOKEN == @__token_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+    PedagioPayApiControlador.Models.PEDAGIOPAYControladorContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()"'
+2024-02-09T14:08:18.2318348-03:00 [DBG] Creating DbCommand for '"ExecuteReader"'.
+2024-02-09T14:08:18.2386612-03:00 [DBG] Creating DbConnection.
+2024-02-09T14:08:18.2912915-03:00 [DBG] Created DbConnection. (42ms).
+2024-02-09T14:08:18.3089310-03:00 [DBG] Created DbCommand for '"ExecuteReader"' (74ms).
+2024-02-09T14:08:18.3640421-03:00 [DBG] Initialized DbCommand for '"ExecuteReader"' (134ms).
+2024-02-09T14:08:18.3745920-03:00 [DBG] Opening connection to database '"PEDAGIOPAY"' on server '"10.250.0.4"'.
+2024-02-09T14:08:30.2629962-03:00 [ERR] An error occurred using the connection to database '"PEDAGIOPAY"' on server '"10.250.0.4"'.
+2024-02-09T14:08:30.3277859-03:00 [ERR] An exception occurred while iterating over the results of a query for context type '"PedagioPayApiControlador.Models.PEDAGIOPAYControladorContext"'."
+""System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database \"PEDAGIOPAY\" requested by the login. The login failed.
+Login failed for user 'tolln3'.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:783f2044-ee64-4e90-809f-2d3b153722c8
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"
+2024-02-09T14:08:30.6386728-03:00 [INF] Teste de serilog
+2024-02-09T14:08:30.6438937-03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-02-09T14:08:30.6560609-03:00 [DBG] No information found on request to perform content negotiation.
+2024-02-09T14:08:30.6624231-03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-02-09T14:08:30.6664221-03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-02-09T14:08:30.6702060-03:00 [DBG] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2024-02-09T14:08:30.6785261-03:00 [INF] Executing "BadRequestObjectResult", writing value of type '"<>f__AnonymousType1`2[[Microsoft.AspNetCore.Mvc.StatusCodeResult, Microsoft.AspNetCore.Mvc.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2024-02-09T14:08:30.7111469-03:00 [INF] Executed action "PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)" in 50673.105ms
+2024-02-09T14:08:30.7179937-03:00 [INF] Executed endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)"'
+2024-02-09T14:08:30.7230823-03:00 [DBG] Connection id ""0HN19I3EKC41B"" completed keep alive response.
+2024-02-09T14:08:30.7348277-03:00 [DBG] '"PEDAGIOPAYControladorContext"' disposed.
+2024-02-09T14:08:30.7560592-03:00 [DBG] Disposing connection to database '"PEDAGIOPAY"' on server '"10.250.0.4"'.
+2024-02-09T14:08:30.7711813-03:00 [DBG] Disposed connection to database '""' on server '""' (8ms).
+2024-02-09T14:08:30.7755899-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/CartaoUsuario/MeusCartoes - - - 400 - application/json;+charset=utf-8 50922.8790ms
+2024-02-09T14:11:09.5479012-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/CartaoUsuario/MeusCartoes - -
+2024-02-09T14:11:09.5567792-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/MeusCartoes"'
+2024-02-09T14:11:09.5619152-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/MeusCartoes"' is valid for the request path '"/CartaoUsuario/MeusCartoes"'
+2024-02-09T14:11:09.5679132-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)"'
+2024-02-09T14:11:09.5721224-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-09T14:11:09.5753736-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)"'
+2024-02-09T14:11:09.5803534-03:00 [INF] Route matched with "{action = \"BuscarCartaoUsuario\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult BuscarCartaoUsuario(System.String)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-09T14:11:09.5875194-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-09T14:11:09.5929554-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-09T14:11:09.5981111-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-09T14:11:09.6049595-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-09T14:11:09.6102356-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-09T14:11:09.6154072-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-09T14:11:09.6209789-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-09T14:11:09.6266441-03:00 [DBG] Attempting to bind parameter '"token"' of type '"System.String"' ...
+2024-02-09T14:11:09.6311368-03:00 [DBG] Attempting to bind parameter '"token"' of type '"System.String"' using the name '""' in request data ...
+2024-02-09T14:11:09.6359934-03:00 [DBG] Attempting to bind parameter '"token"' of type '"System.String"' using the name '""' in request data ...
+2024-02-09T14:11:09.6412781-03:00 [DBG] Done attempting to bind parameter '"token"' of type '"System.String"'.
+2024-02-09T14:11:09.6459930-03:00 [DBG] Done attempting to bind parameter '"token"' of type '"System.String"'.
+2024-02-09T14:11:09.6509877-03:00 [DBG] Done attempting to bind parameter '"token"' of type '"System.String"'.
+2024-02-09T14:11:09.6561502-03:00 [DBG] Attempting to validate the bound parameter '"token"' of type '"System.String"' ...
+2024-02-09T14:11:09.6610346-03:00 [DBG] Done attempting to validate the bound parameter '"token"' of type '"System.String"'.
+2024-02-09T14:11:09.6664321-03:00 [INF] Teste de serilog
+2024-02-09T14:11:33.7468416-03:00 [DBG] Entity Framework Core "7.0.14" initialized '"PEDAGIOPAYControladorContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"7.0.14"' with options: "None"
+2024-02-09T14:11:33.8692089-03:00 [DBG] Creating DbCommand for '"ExecuteReader"'.
+2024-02-09T14:11:33.8729243-03:00 [DBG] Creating DbConnection.
+2024-02-09T14:11:33.8756028-03:00 [DBG] Created DbConnection. (2ms).
+2024-02-09T14:11:33.8790414-03:00 [DBG] Created DbCommand for '"ExecuteReader"' (9ms).
+2024-02-09T14:11:33.8834929-03:00 [DBG] Initialized DbCommand for '"ExecuteReader"' (14ms).
+2024-02-09T14:11:33.8862276-03:00 [DBG] Opening connection to database '"PEDAGIOPAY"' on server '"10.250.0.4"'.
+2024-02-09T14:11:44.9404153-03:00 [ERR] An error occurred using the connection to database '"PEDAGIOPAY"' on server '"10.250.0.4"'.
+2024-02-09T14:11:44.9454167-03:00 [ERR] An exception occurred while iterating over the results of a query for context type '"PedagioPayApiControlador.Models.PEDAGIOPAYControladorContext"'."
+""System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database \"PEDAGIOPAY\" requested by the login. The login failed.
+Login failed for user 'tolln3'.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:97e27636-89fb-4084-936b-ca6e9e41dedb
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"
+2024-02-09T14:13:50.9943147-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-09T14:13:51.0977952-03:00 [DBG] Hosting starting
+2024-02-09T14:13:51.2769281-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-09T14:13:51.2822075-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-09T14:13:51.2845802-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-09T14:13:51.2874642-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-09T14:13:51.2904300-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-09T14:13:51.2946871-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-09T14:13:51.2985535-03:00 [INF] Hosting environment: "Development"
+2024-02-09T14:13:51.3012790-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-09T14:13:51.3044992-03:00 [DBG] Hosting started
+2024-02-09T14:13:51.3859323-03:00 [DBG] Connection id ""0HN19I9UB6IEK"" received FIN.
+2024-02-09T14:13:51.3859324-03:00 [DBG] Connection id ""0HN19I9UB6IEJ"" received FIN.
+2024-02-09T14:13:51.7460470-03:00 [DBG] Connection id ""0HN19I9UB6IEJ"" accepted.
+2024-02-09T14:13:51.7460466-03:00 [DBG] Connection id ""0HN19I9UB6IEK"" accepted.
+2024-02-09T14:13:51.7586195-03:00 [DBG] Connection id ""0HN19I9UB6IEJ"" started.
+2024-02-09T14:13:51.7611010-03:00 [DBG] Connection id ""0HN19I9UB6IEL"" accepted.
+2024-02-09T14:13:51.7607219-03:00 [DBG] Connection id ""0HN19I9UB6IEK"" started.
+2024-02-09T14:13:51.7748737-03:00 [DBG] Connection id ""0HN19I9UB6IEM"" accepted.
+2024-02-09T14:13:51.7745288-03:00 [DBG] Connection id ""0HN19I9UB6IEL"" started.
+2024-02-09T14:13:51.7857170-03:00 [DBG] Connection id ""0HN19I9UB6IEJ"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T14:13:51.7857606-03:00 [DBG] Connection id ""0HN19I9UB6IEM"" started.
+2024-02-09T14:13:51.7956181-03:00 [DBG] Connection id ""0HN19I9UB6IEJ"" disconnecting.
+2024-02-09T14:13:51.7857054-03:00 [DBG] Connection id ""0HN19I9UB6IEK"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T14:13:51.8057547-03:00 [DBG] Connection id ""0HN19I9UB6IEJ"" stopped.
+2024-02-09T14:13:51.8060809-03:00 [DBG] Connection id ""0HN19I9UB6IEK"" disconnecting.
+2024-02-09T14:13:51.8163304-03:00 [DBG] Connection id ""0HN19I9UB6IEK"" stopped.
+2024-02-09T14:13:51.8641884-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-09T14:13:52.1964932-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-09T14:13:52.2513720-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-09T14:13:52.2572629-03:00 [DBG] Request did not match any endpoints
+2024-02-09T14:13:52.6318861-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-09T14:13:52.6873445-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-09T14:13:52.6936475-03:00 [DBG] Connection id ""0HN19I9UB6IEN"" accepted.
+2024-02-09T14:13:52.6903913-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-09T14:13:52.6947710-03:00 [DBG] Connection id ""0HN19I9UB6IEL"" completed keep alive response.
+2024-02-09T14:13:52.7004646-03:00 [DBG] Connection id ""0HN19I9UB6IEN"" started.
+2024-02-09T14:13:52.7078552-03:00 [DBG] Connection id ""0HN19I9UB6IEM"" completed keep alive response.
+2024-02-09T14:13:52.7131124-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-09T14:13:52.7283269-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 37.8153ms
+2024-02-09T14:13:52.7119314-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 855.8368ms
+2024-02-09T14:13:52.8559619-03:00 [DBG] Connection id ""0HN19I9UB6IEN"" completed keep alive response.
+2024-02-09T14:13:52.8674137-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 154.2237ms
+2024-02-09T14:13:52.9257667-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-09T14:13:52.9291418-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-09T14:13:52.9347883-03:00 [DBG] Request did not match any endpoints
+2024-02-09T14:13:53.1173624-03:00 [DBG] Connection id ""0HN19I9UB6IEN"" completed keep alive response.
+2024-02-09T14:13:53.1241728-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 198.3414ms
+2024-02-09T14:14:27.6869993-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/CartaoUsuario/MeusCartoes - -
+2024-02-09T14:14:27.7004138-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/MeusCartoes"'
+2024-02-09T14:14:27.7174392-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/MeusCartoes"' is valid for the request path '"/CartaoUsuario/MeusCartoes"'
+2024-02-09T14:14:27.7232432-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)"'
+2024-02-09T14:14:27.7299832-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-09T14:14:27.7361861-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-09T14:14:27.7432595-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)"'
+2024-02-09T14:14:27.7969868-03:00 [INF] Route matched with "{action = \"BuscarCartaoUsuario\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult BuscarCartaoUsuario(System.String)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-09T14:14:27.8092931-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-09T14:14:27.8168413-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-09T14:14:27.8277527-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-09T14:14:27.8397463-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-09T14:14:27.8480205-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-09T14:14:27.8558113-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-09T14:14:28.1590422-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-09T14:14:28.2281526-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-09T14:14:28.2453632-03:00 [DBG] Attempting to bind parameter '"token"' of type '"System.String"' ...
+2024-02-09T14:14:28.2568199-03:00 [DBG] Attempting to bind parameter '"token"' of type '"System.String"' using the name '""' in request data ...
+2024-02-09T14:14:28.2668614-03:00 [DBG] Attempting to bind parameter '"token"' of type '"System.String"' using the name '""' in request data ...
+2024-02-09T14:14:28.2736393-03:00 [DBG] Done attempting to bind parameter '"token"' of type '"System.String"'.
+2024-02-09T14:14:28.2970857-03:00 [DBG] Done attempting to bind parameter '"token"' of type '"System.String"'.
+2024-02-09T14:14:28.3055560-03:00 [DBG] Done attempting to bind parameter '"token"' of type '"System.String"'.
+2024-02-09T14:14:28.3129627-03:00 [DBG] Attempting to validate the bound parameter '"token"' of type '"System.String"' ...
+2024-02-09T14:14:28.3331443-03:00 [DBG] Done attempting to validate the bound parameter '"token"' of type '"System.String"'.
+2024-02-09T14:14:28.3852131-03:00 [INF] Teste de serilog
+2024-02-09T14:14:34.9331417-03:00 [DBG] Entity Framework Core "7.0.14" initialized '"PEDAGIOPAYControladorContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"7.0.14"' with options: "None"
+2024-02-09T14:14:35.1574489-03:00 [DBG] Compiling query expression: "
+"'"DbSet<USUARIO>()
+    .Where(t => t.TOKEN == __token_0)
+    .Select(u => u.ID_USUARIO)
+    .FirstOrDefault()"'
+2024-02-09T14:14:35.5881047-03:00 [DBG] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<int>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT TOP(1) u.ID_USUARIO
+        FROM USUARIO AS u
+        WHERE u.TOKEN == @__token_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+    PedagioPayApiControlador.Models.PEDAGIOPAYControladorContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()"'
+2024-02-09T14:14:35.6575031-03:00 [DBG] Creating DbCommand for '"ExecuteReader"'.
+2024-02-09T14:14:35.6653038-03:00 [DBG] Creating DbConnection.
+2024-02-09T14:14:35.7162136-03:00 [DBG] Created DbConnection. (40ms).
+2024-02-09T14:14:35.7323230-03:00 [DBG] Created DbCommand for '"ExecuteReader"' (69ms).
+2024-02-09T14:14:35.7622705-03:00 [DBG] Initialized DbCommand for '"ExecuteReader"' (103ms).
+2024-02-09T14:14:35.7708173-03:00 [DBG] Opening connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-09T14:14:36.8309001-03:00 [DBG] Opened connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-09T14:14:36.8528883-03:00 [DBG] Executing DbCommand [Parameters=["@__token_0='?' (Size = 500) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[ID_USUARIO]
+FROM [USUARIO] AS [u]
+WHERE [u].[TOKEN] = @__token_0"
+2024-02-09T14:14:37.0799594-03:00 [INF] Executed DbCommand ("234"ms) [Parameters=["@__token_0='?' (Size = 500) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[ID_USUARIO]
+FROM [USUARIO] AS [u]
+WHERE [u].[TOKEN] = @__token_0"
+2024-02-09T14:14:37.0964560-03:00 [DBG] Closing data reader to '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-09T14:14:37.1140898-03:00 [DBG] A data reader for '"PEDAGIO_PAY"' on server '"10.250.0.4"' is being disposed after spending 20ms reading results.
+2024-02-09T14:14:37.1288215-03:00 [DBG] Closing connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-09T14:14:37.1464020-03:00 [DBG] Closed connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"' (20ms).
+2024-02-09T14:14:43.1815807-03:00 [DBG] Compiling query expression: "
+"'"DbSet<USUARIO_CARTAO>()
+    .Where(u => u.ID_USUARIO_CARTAO == __consultaUsuario_0)
+    .Select(c => new UsuarioCartaoDto{ }
+    )"'
+2024-02-09T14:14:43.1952060-03:00 [DBG] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<UsuarioCartaoDto>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        SELECT 1
+        FROM USUARIO_CARTAO AS u
+        WHERE u.ID_USUARIO_CARTAO == @__consultaUsuario_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, UsuarioCartaoDto>, 
+    PedagioPayApiControlador.Models.PEDAGIOPAYControladorContext, 
+    False, 
+    False, 
+    True
+)"'
+2024-02-09T14:14:43.2151167-03:00 [DBG] Creating DbCommand for '"ExecuteReader"'.
+2024-02-09T14:14:43.2264647-03:00 [DBG] Created DbCommand for '"ExecuteReader"' (11ms).
+2024-02-09T14:14:43.2300325-03:00 [DBG] Initialized DbCommand for '"ExecuteReader"' (14ms).
+2024-02-09T14:14:43.2346647-03:00 [DBG] Opening connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-09T14:14:43.2405931-03:00 [DBG] Opened connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-09T14:14:43.2456792-03:00 [DBG] Executing DbCommand [Parameters=["@__consultaUsuario_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT 1
+FROM [USUARIO_CARTAO] AS [u]
+WHERE [u].[ID_USUARIO_CARTAO] = @__consultaUsuario_0"
+2024-02-09T14:14:43.4032761-03:00 [INF] Executed DbCommand ("159"ms) [Parameters=["@__consultaUsuario_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT 1
+FROM [USUARIO_CARTAO] AS [u]
+WHERE [u].[ID_USUARIO_CARTAO] = @__consultaUsuario_0"
+2024-02-09T14:14:43.4097056-03:00 [DBG] Closing data reader to '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-09T14:14:43.4132155-03:00 [DBG] A data reader for '"PEDAGIO_PAY"' on server '"10.250.0.4"' is being disposed after spending 3ms reading results.
+2024-02-09T14:14:43.4174234-03:00 [DBG] Closing connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-09T14:14:43.4223585-03:00 [DBG] Closed connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"' (4ms).
+2024-02-09T14:15:07.4249876-03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-02-09T14:15:07.4347485-03:00 [DBG] No information found on request to perform content negotiation.
+2024-02-09T14:15:07.4381601-03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-02-09T14:15:07.4422694-03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-02-09T14:15:07.4451388-03:00 [DBG] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2024-02-09T14:15:07.4486398-03:00 [INF] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType2`2[[Microsoft.AspNetCore.Mvc.StatusCodeResult, Microsoft.AspNetCore.Mvc.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60],[System.Collections.Generic.List`1[[PedagioPayApiControlador.Data.Dtos.UsuarioCartaoDto, PedagioPayApiControlador, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2024-02-09T14:15:07.6810221-03:00 [INF] Executed action "PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)" in 39817.834ms
+2024-02-09T14:15:07.6862578-03:00 [INF] Executed endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.BuscarCartaoUsuario (PedagioPayApiControlador)"'
+2024-02-09T14:15:07.6905694-03:00 [DBG] Connection id ""0HN19I9UB6IEN"" completed keep alive response.
+2024-02-09T14:15:07.7012028-03:00 [DBG] '"PEDAGIOPAYControladorContext"' disposed.
+2024-02-09T14:15:07.7216680-03:00 [DBG] Disposing connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-09T14:15:07.7291495-03:00 [DBG] Disposed connection to database '""' on server '""' (8ms).
+2024-02-09T14:15:07.7352215-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/CartaoUsuario/MeusCartoes - - - 200 - application/json;+charset=utf-8 40051.7235ms
+2024-02-09T14:18:56.0982739-03:00 [DBG] Connection id ""0HN19I9UB6IEL"" received FIN.
+2024-02-09T14:18:56.1267924-03:00 [DBG] Connection id ""0HN19I9UB6IEM"" received FIN.
+2024-02-09T14:18:56.1403395-03:00 [DBG] Connection id ""0HN19I9UB6IEL"" disconnecting.
+2024-02-09T14:18:56.1458119-03:00 [DBG] Connection id ""0HN19I9UB6IEM"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T14:18:56.1493080-03:00 [DBG] Connection id ""0HN19I9UB6IEL"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T14:18:56.1555923-03:00 [DBG] Connection id ""0HN19I9UB6IEM"" disconnecting.
+2024-02-09T14:18:56.1785753-03:00 [DBG] Connection id ""0HN19I9UB6IEL"" stopped.
+2024-02-09T14:18:56.1785753-03:00 [DBG] Connection id ""0HN19I9UB6IEM"" stopped.
+2024-02-09T14:20:35.1272925-03:00 [DBG] Connection id ""0HN19I9UB6IEN"" received FIN.
+2024-02-09T14:20:35.1367923-03:00 [DBG] Connection id ""0HN19I9UB6IEN"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-09T14:20:35.1513556-03:00 [DBG] Connection id ""0HN19I9UB6IEN"" disconnecting.
+2024-02-09T14:20:35.1555138-03:00 [DBG] Connection id ""0HN19I9UB6IEN"" stopped.

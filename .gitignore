@@ -1,0 +1,6 @@
+/.vs
+appsettings.json
+efpt.config.json
+/bin/publish
+/bin
+

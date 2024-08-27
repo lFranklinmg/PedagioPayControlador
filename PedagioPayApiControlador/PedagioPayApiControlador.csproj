@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>6b5be927-9fde-4213-9e40-453b75b1bbcb</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Dapper.FluentMap" Version="2.0.0" />
+    <PackageReference Include="Dapper.FluentMap.Dommel" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNet.Cors" Version="5.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="110.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	  <PackageReference Include="Serilog" Version="2.10.0" />
+	  <!--<PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />-->
+	  <PackageReference Include="Serilog.Extensions.Hosting" Version="4.2.0" />
+	  <PackageReference Include="Serilog.Extensions.Logging" Version="3.1.0" />
+	  <PackageReference Include="Serilog.Settings.Configuration" Version="3.3.0" />
+	  <PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+	  <PackageReference Include="Serilog.Sinks.Console" Version="4.0.1" />
+	  <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="8.4.1" />
+	  <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+	  <PackageReference Include="Serilog.Filters.Expressions" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,165 @@
+2024-02-28T22:39:21.5126714-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-28T22:39:21.6146974-03:00 [DBG] Hosting starting
+2024-02-28T22:39:21.8722836-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-28T22:39:21.8764957-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-28T22:39:21.8794658-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-28T22:39:21.8821264-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-28T22:39:21.8865268-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-28T22:39:21.8901589-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28T22:39:21.8942360-03:00 [INF] Hosting environment: "Development"
+2024-02-28T22:39:21.8978235-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-28T22:39:21.9047216-03:00 [DBG] Hosting started
+2024-02-28T22:39:22.2234388-03:00 [DBG] Connection id ""0HN1OOT0I642M"" received FIN.
+2024-02-28T22:39:22.2598981-03:00 [DBG] Connection id ""0HN1OOT0I642M"" accepted.
+2024-02-28T22:39:22.3063523-03:00 [DBG] Connection id ""0HN1OOT0I642M"" started.
+2024-02-28T22:39:22.3414312-03:00 [DBG] Connection id ""0HN1OOT0I642M"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-28T22:39:22.3511005-03:00 [DBG] Connection id ""0HN1OOT0I642M"" disconnecting.
+2024-02-28T22:39:22.3629183-03:00 [DBG] Connection id ""0HN1OOT0I642M"" stopped.
+2024-02-28T22:39:23.8132570-03:00 [DBG] Connection id ""0HN1OOT0I642N"" accepted.
+2024-02-28T22:39:23.8366775-03:00 [DBG] Connection id ""0HN1OOT0I642N"" started.
+2024-02-28T22:39:23.8974836-03:00 [DBG] Connection id ""0HN1OOT0I642O"" accepted.
+2024-02-28T22:39:23.9877064-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger - -
+2024-02-28T22:39:23.9322310-03:00 [DBG] Connection id ""0HN1OOT0I642O"" started.
+2024-02-28T22:39:24.2784544-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-28T22:39:24.3077724-03:00 [DBG] No candidates found for the request path '"/swagger"'
+2024-02-28T22:39:24.3106860-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:39:24.3443499-03:00 [DBG] Connection id ""0HN1OOT0I642N"" completed keep alive response.
+2024-02-28T22:39:24.3522643-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger - - - 301 0 - 372.2993ms
+2024-02-28T22:39:24.3572927-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-28T22:39:24.3638237-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-28T22:39:24.3678822-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:39:24.5969437-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-28T22:39:24.6382795-03:00 [DBG] Connection id ""0HN1OOT0I642P"" accepted.
+2024-02-28T22:39:24.6582393-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui.css - -
+2024-02-28T22:39:24.6619306-03:00 [DBG] Connection id ""0HN1OOT0I642Q"" accepted.
+2024-02-28T22:39:24.6251288-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-28T22:39:24.6645854-03:00 [DBG] No candidates found for the request path '"/swagger/swagger-ui.css"'
+2024-02-28T22:39:24.6621550-03:00 [DBG] Connection id ""0HN1OOT0I642P"" started.
+2024-02-28T22:39:24.6704240-03:00 [DBG] Connection id ""0HN1OOT0I642N"" completed keep alive response.
+2024-02-28T22:39:24.6737534-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:39:24.6775019-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui-bundle.js - -
+2024-02-28T22:39:24.6805162-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 323.1112ms
+2024-02-28T22:39:24.6686529-03:00 [DBG] Connection id ""0HN1OOT0I642Q"" started.
+2024-02-28T22:39:24.6690062-03:00 [DBG] Connection id ""0HN1OOT0I642R"" accepted.
+2024-02-28T22:39:24.6958707-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui-standalone-preset.js - -
+2024-02-28T22:39:24.7003336-03:00 [DBG] Connection id ""0HN1OOT0I642S"" accepted.
+2024-02-28T22:39:24.7035794-03:00 [DBG] No candidates found for the request path '"/swagger/swagger-ui-standalone-preset.js"'
+2024-02-28T22:39:24.6876918-03:00 [DBG] No candidates found for the request path '"/swagger/swagger-ui-bundle.js"'
+2024-02-28T22:39:24.7182663-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:39:24.7133257-03:00 [DBG] Connection id ""0HN1OOT0I642R"" started.
+2024-02-28T22:39:24.7265872-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-28T22:39:24.7127153-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:39:24.7347868-03:00 [DBG] Connection id ""0HN1OOT0I642R"" completed keep alive response.
+2024-02-28T22:39:24.7732672-03:00 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2024-02-28T22:39:24.7733701-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 46.6834ms
+2024-02-28T22:39:24.7610244-03:00 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2024-02-28T22:39:24.8039081-03:00 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2024-02-28T22:39:24.7133035-03:00 [DBG] Connection id ""0HN1OOT0I642S"" started.
+2024-02-28T22:39:24.8056965-03:00 [DBG] Connection id ""0HN1OOT0I642Q"" completed keep alive response.
+2024-02-28T22:39:24.8090286-03:00 [DBG] Connection id ""0HN1OOT0I642O"" completed keep alive response.
+2024-02-28T22:39:24.8129637-03:00 [DBG] Connection id ""0HN1OOT0I642P"" completed keep alive response.
+2024-02-28T22:39:24.8311420-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 134.5098ms
+2024-02-28T22:39:24.8162145-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-28T22:39:24.8356277-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui.css - - - 200 144929 text/css 177.2057ms
+2024-02-28T22:39:24.8394357-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 161.8786ms
+2024-02-28T22:39:24.9738937-03:00 [DBG] Connection id ""0HN1OOT0I642S"" completed keep alive response.
+2024-02-28T22:39:24.9780655-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 161.6961ms
+2024-02-28T22:39:25.1074085-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-28T22:39:25.1132543-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-28T22:39:25.1281520-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:39:25.1495188-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/favicon-32x32.png - -
+2024-02-28T22:39:25.1584427-03:00 [DBG] No candidates found for the request path '"/swagger/favicon-32x32.png"'
+2024-02-28T22:39:25.1614289-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:39:25.1638236-03:00 [INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2024-02-28T22:39:25.1698635-03:00 [DBG] Connection id ""0HN1OOT0I642P"" completed keep alive response.
+2024-02-28T22:39:25.1752095-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/favicon-32x32.png - - - 200 628 image/png 25.6544ms
+2024-02-28T22:39:25.4705263-03:00 [DBG] Connection id ""0HN1OOT0I642S"" completed keep alive response.
+2024-02-28T22:39:25.7587968-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 651.3073ms
+2024-02-28T22:39:38.2008401-03:00 [DBG] Connection id ""0HN1OOT0I642T"" accepted.
+2024-02-28T22:39:38.2049176-03:00 [DBG] Connection id ""0HN1OOT0I642T"" started.
+2024-02-28T22:39:38.2085284-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/Debitos/ConsultaAvulsa - -
+2024-02-28T22:39:38.2110560-03:00 [DBG] No candidates found for the request path '"/Debitos/ConsultaAvulsa"'
+2024-02-28T22:39:38.2143971-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:39:38.2183152-03:00 [DBG] "OPTIONS" requests are not supported
+2024-02-28T22:39:38.2219967-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-28T22:39:38.2251209-03:00 [INF] CORS policy execution successful.
+2024-02-28T22:39:38.2283569-03:00 [DBG] The request is a preflight request.
+2024-02-28T22:39:38.2326697-03:00 [DBG] Connection id ""0HN1OOT0I642T"" completed keep alive response.
+2024-02-28T22:39:38.2377939-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/Debitos/ConsultaAvulsa - - - 204 - - 29.1524ms
+2024-02-28T22:39:38.2409385-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/Debitos/ConsultaAvulsa application/json 94
+2024-02-28T22:39:38.2431834-03:00 [DBG] No candidates found for the request path '"/Debitos/ConsultaAvulsa"'
+2024-02-28T22:39:38.2455515-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:39:38.2477264-03:00 [DBG] "POST" requests are not supported
+2024-02-28T22:39:38.2507847-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-28T22:39:38.2543826-03:00 [INF] CORS policy execution successful.
+2024-02-28T22:39:38.2583728-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-28T22:39:38.2625575-03:00 [DBG] Connection id ""0HN1OOT0I642T"" completed keep alive response.
+2024-02-28T22:39:38.2713736-03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7008/Debitos/ConsultaAvulsa application/json 94 - 404 0 - 30.2425ms
+2024-02-28T22:39:38.2745617-03:00 [DBG] Connection id ""0HN1OOT0I642T"", Request id ""0HN1OOT0I642T:00000003"": started reading request body.
+2024-02-28T22:39:38.2786480-03:00 [DBG] Connection id ""0HN1OOT0I642T"", Request id ""0HN1OOT0I642T:00000003"": done reading request body.
+2024-02-28T22:40:38.2975944-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/Debitos/ConsultaAvulsa - -
+2024-02-28T22:40:38.3004281-03:00 [DBG] No candidates found for the request path '"/Debitos/ConsultaAvulsa"'
+2024-02-28T22:40:38.3034292-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:40:38.3058033-03:00 [DBG] "OPTIONS" requests are not supported
+2024-02-28T22:40:38.3127450-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-28T22:40:38.3157963-03:00 [INF] CORS policy execution successful.
+2024-02-28T22:40:38.3185523-03:00 [DBG] The request is a preflight request.
+2024-02-28T22:40:38.3214114-03:00 [DBG] Connection id ""0HN1OOT0I642T"" completed keep alive response.
+2024-02-28T22:40:38.3390816-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/Debitos/ConsultaAvulsa - - - 204 - - 44.0484ms
+2024-02-28T22:40:38.3439777-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/Debitos/ConsultaAvulsa application/json 94
+2024-02-28T22:40:38.3478050-03:00 [DBG] No candidates found for the request path '"/Debitos/ConsultaAvulsa"'
+2024-02-28T22:40:38.3508542-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:40:38.3544813-03:00 [DBG] "POST" requests are not supported
+2024-02-28T22:40:38.3577118-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-28T22:40:38.3623110-03:00 [INF] CORS policy execution successful.
+2024-02-28T22:40:38.3643979-03:00 [DBG] Connection id ""0HN1OOT0I642T"" completed keep alive response.
+2024-02-28T22:40:38.3692617-03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7008/Debitos/ConsultaAvulsa application/json 94 - 404 0 - 25.2168ms
+2024-02-28T22:40:38.3724971-03:00 [DBG] Connection id ""0HN1OOT0I642T"", Request id ""0HN1OOT0I642T:00000005"": started reading request body.
+2024-02-28T22:40:38.3778251-03:00 [DBG] Connection id ""0HN1OOT0I642T"", Request id ""0HN1OOT0I642T:00000005"": done reading request body.
+2024-02-28T22:42:25.8170519-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/Debitos/ConsultaAvulsa - -
+2024-02-28T22:42:25.8207304-03:00 [DBG] No candidates found for the request path '"/Debitos/ConsultaAvulsa"'
+2024-02-28T22:42:25.8233495-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:42:25.8260059-03:00 [DBG] "OPTIONS" requests are not supported
+2024-02-28T22:42:25.8285050-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-28T22:42:25.8335557-03:00 [INF] CORS policy execution successful.
+2024-02-28T22:42:25.8353698-03:00 [DBG] The request is a preflight request.
+2024-02-28T22:42:25.8371954-03:00 [DBG] Connection id ""0HN1OOT0I642T"" completed keep alive response.
+2024-02-28T22:42:25.8403012-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/Debitos/ConsultaAvulsa - - - 204 - - 24.3602ms
+2024-02-28T22:42:25.8423096-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/Debitos/ConsultaAvulsa application/json 94
+2024-02-28T22:42:25.8441234-03:00 [DBG] No candidates found for the request path '"/Debitos/ConsultaAvulsa"'
+2024-02-28T22:42:25.8472736-03:00 [DBG] Request did not match any endpoints
+2024-02-28T22:42:25.8500108-03:00 [DBG] "POST" requests are not supported
+2024-02-28T22:42:25.8524544-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-28T22:42:25.8553953-03:00 [INF] CORS policy execution successful.
+2024-02-28T22:42:25.8581333-03:00 [DBG] Connection id ""0HN1OOT0I642T"" completed keep alive response.
+2024-02-28T22:42:25.8640666-03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7008/Debitos/ConsultaAvulsa application/json 94 - 404 0 - 21.7395ms
+2024-02-28T22:42:25.8696403-03:00 [DBG] Connection id ""0HN1OOT0I642T"", Request id ""0HN1OOT0I642T:00000007"": started reading request body.
+2024-02-28T22:42:25.8740852-03:00 [DBG] Connection id ""0HN1OOT0I642T"", Request id ""0HN1OOT0I642T:00000007"": done reading request body.
+2024-02-28T22:44:27.5427374-03:00 [DBG] Connection id ""0HN1OOT0I642N"" received FIN.
+2024-02-28T22:44:27.5473798-03:00 [DBG] Connection id ""0HN1OOT0I642O"" received FIN.
+2024-02-28T22:44:27.5527057-03:00 [DBG] Connection id ""0HN1OOT0I642R"" received FIN.
+2024-02-28T22:44:27.5719087-03:00 [DBG] Connection id ""0HN1OOT0I642S"" received FIN.
+2024-02-28T22:44:27.5778837-03:00 [DBG] Connection id ""0HN1OOT0I642Q"" received FIN.
+2024-02-28T22:44:27.5805199-03:00 [DBG] Connection id ""0HN1OOT0I642P"" received FIN.
+2024-02-28T22:44:27.5898941-03:00 [DBG] Connection id ""0HN1OOT0I642N"" disconnecting.
+2024-02-28T22:44:27.5968899-03:00 [DBG] Connection id ""0HN1OOT0I642N"" stopped.
+2024-02-28T22:44:27.8134793-03:00 [DBG] Connection id ""0HN1OOT0I642R"" disconnecting.
+2024-02-28T22:44:27.7734639-03:00 [DBG] Connection id ""0HN1OOT0I642O"" disconnecting.
+2024-02-28T22:44:27.9318804-03:00 [DBG] Connection id ""0HN1OOT0I642R"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-28T22:44:27.9343087-03:00 [DBG] Connection id ""0HN1OOT0I642O"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-28T22:44:27.9522825-03:00 [DBG] Connection id ""0HN1OOT0I642R"" stopped.
+2024-02-28T22:44:27.9413912-03:00 [DBG] Connection id ""0HN1OOT0I642S"" disconnecting.
+2024-02-28T22:44:27.9639697-03:00 [DBG] Connection id ""0HN1OOT0I642S"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-28T22:44:27.9705178-03:00 [DBG] Connection id ""0HN1OOT0I642Q"" disconnecting.
+2024-02-28T22:44:27.9734594-03:00 [DBG] Connection id ""0HN1OOT0I642Q"" stopped.
+2024-02-28T22:44:27.9597936-03:00 [DBG] Connection id ""0HN1OOT0I642O"" stopped.
+2024-02-28T22:44:27.9731669-03:00 [DBG] Connection id ""0HN1OOT0I642S"" stopped.
+2024-02-28T22:44:28.0078998-03:00 [DBG] Connection id ""0HN1OOT0I642N"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-28T22:44:28.0080707-03:00 [DBG] Connection id ""0HN1OOT0I642Q"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-28T22:44:28.0078998-03:00 [DBG] Connection id ""0HN1OOT0I642P"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-28T22:44:28.0309367-03:00 [DBG] Connection id ""0HN1OOT0I642P"" disconnecting.
+2024-02-28T22:44:28.0899574-03:00 [DBG] Connection id ""0HN1OOT0I642P"" stopped.
+2024-02-28T22:48:16.7137139-03:00 [DBG] Connection id ""0HN1OOT0I642T"" received FIN.
+2024-02-28T22:48:16.7231473-03:00 [DBG] Connection id ""0HN1OOT0I642T"" disconnecting.
+2024-02-28T22:48:16.7536492-03:00 [DBG] Connection id ""0HN1OOT0I642T"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-28T22:48:16.7630414-03:00 [DBG] Connection id ""0HN1OOT0I642T"" stopped.

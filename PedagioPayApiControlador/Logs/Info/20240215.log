@@ -1,0 +1,1488 @@
+2024-02-15T00:06:46.0643138-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T00:06:46.2553192-03:00 [DBG] Hosting starting
+2024-02-15T00:06:47.1704617-03:00 [DBG] Connection id ""0HN1DQCIPA07T"" accepted.
+2024-02-15T00:06:47.1967538-03:00 [DBG] Connection id ""0HN1DQCIPA07U"" accepted.
+2024-02-15T00:06:47.2355146-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T00:06:47.2566646-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T00:06:47.2576443-03:00 [DBG] Connection id ""0HN1DQCIPA07T"" started.
+2024-02-15T00:06:47.2597683-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T00:06:47.2617570-03:00 [DBG] Connection id ""0HN1DQCIPA07U"" started.
+2024-02-15T00:06:47.2672490-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T00:06:47.2748455-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T00:06:47.2864122-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T00:06:47.3038496-03:00 [INF] Hosting environment: "Development"
+2024-02-15T00:06:47.4670649-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T00:06:47.8358806-03:00 [DBG] Hosting started
+2024-02-15T00:06:48.6889409-03:00 [DBG] Connection id ""0HN1DQCIPA07V"" accepted.
+2024-02-15T00:06:48.9649412-03:00 [DBG] Connection id ""0HN1DQCIPA080"" accepted.
+2024-02-15T00:06:48.7517566-03:00 [DBG] Connection id ""0HN1DQCIPA07V"" started.
+2024-02-15T00:06:49.2838121-03:00 [DBG] Connection id ""0HN1DQCIPA080"" started.
+2024-02-15T00:06:49.3751100-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T00:06:49.9926985-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T00:06:50.0630911-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T00:06:50.0694353-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:06:50.6529706-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T00:06:50.7060573-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T00:06:50.7185135-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T00:06:50.7307354-03:00 [DBG] Connection id ""0HN1DQCIPA07V"" completed keep alive response.
+2024-02-15T00:06:50.7258782-03:00 [DBG] Connection id ""0HN1DQCIPA081"" accepted.
+2024-02-15T00:06:50.7426107-03:00 [DBG] Connection id ""0HN1DQCIPA080"" completed keep alive response.
+2024-02-15T00:06:50.7461851-03:00 [DBG] Connection id ""0HN1DQCIPA081"" started.
+2024-02-15T00:06:50.7625536-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T00:06:50.7584530-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 39.8462ms
+2024-02-15T00:06:50.7456824-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 1380.0118ms
+2024-02-15T00:06:51.0518256-03:00 [DBG] Connection id ""0HN1DQCIPA081"" completed keep alive response.
+2024-02-15T00:06:51.0633974-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 300.8309ms
+2024-02-15T00:06:51.2129942-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T00:06:51.2328365-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T00:06:51.2511320-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:06:51.6000214-03:00 [DBG] Connection id ""0HN1DQCIPA081"" completed keep alive response.
+2024-02-15T00:06:51.8375782-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 628.1664ms
+2024-02-15T00:07:04.6757266-03:00 [DBG] Connection id ""0HN1DQCIPA082"" accepted.
+2024-02-15T00:07:04.6919997-03:00 [DBG] Connection id ""0HN1DQCIPA082"" started.
+2024-02-15T00:07:04.7008652-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - -
+2024-02-15T00:07:04.7182811-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:07:04.7340267-03:00 [DBG] Request matched endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:07:04.7437354-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:07:04.7536729-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:07:04.7727755-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:07:04.7768048-03:00 [DBG] The request is a preflight request.
+2024-02-15T00:07:04.7830339-03:00 [DBG] Connection id ""0HN1DQCIPA082"" completed keep alive response.
+2024-02-15T00:07:04.7934732-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - - - 204 - - 92.6024ms
+2024-02-15T00:07:04.7970152-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/CartaoUsuario/AdicionarNovoCartao application/json 138
+2024-02-15T00:07:04.8073740-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:07:04.8200324-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/AdicionarNovoCartao"' is valid for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:07:04.8258776-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:07:04.8295326-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:07:04.8337512-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:07:04.8376504-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:07:04.8468200-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-15T00:07:04.8543003-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:07:04.9181201-03:00 [INF] Route matched with "{action = \"Cadastro\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Cadastro(PedagioPayApiControlador.Data.Dtos.TransacaoDto)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-15T00:07:04.9298290-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-15T00:07:04.9343094-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-15T00:07:04.9395640-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-15T00:07:04.9444462-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-15T00:07:04.9481169-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-15T00:07:04.9540422-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:07:05.2999817-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-15T00:07:05.4441512-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:07:05.4759111-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:07:05.4851306-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' using the name '""' in request data ...
+2024-02-15T00:07:05.4955561-03:00 [DBG] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2024-02-15T00:07:05.5395534-03:00 [DBG] Connection id ""0HN1DQCIPA082"", Request id ""0HN1DQCIPA082:00000003"": started reading request body.
+2024-02-15T00:07:05.5615302-03:00 [DBG] Connection id ""0HN1DQCIPA082"", Request id ""0HN1DQCIPA082:00000003"": done reading request body.
+2024-02-15T00:07:05.6036424-03:00 [DBG] JSON input formatter succeeded, deserializing to type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'
+2024-02-15T00:07:05.6071928-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:07:05.6115153-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:07:05.6152370-03:00 [DBG] Attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:07:05.6418505-03:00 [DBG] Done attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:08:31.0942988-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T00:08:31.2327388-03:00 [DBG] Hosting starting
+2024-02-15T00:08:31.4176885-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T00:08:31.4197979-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T00:08:31.4228620-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T00:08:31.4408868-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T00:08:31.4576367-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T00:08:31.4649846-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T00:08:31.4695408-03:00 [INF] Hosting environment: "Development"
+2024-02-15T00:08:31.4736675-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T00:08:31.4768903-03:00 [DBG] Hosting started
+2024-02-15T00:08:31.5973356-03:00 [DBG] Connection id ""0HN1DQDHT8EG6"" received FIN.
+2024-02-15T00:08:31.5973353-03:00 [DBG] Connection id ""0HN1DQDHT8EG5"" received FIN.
+2024-02-15T00:08:31.6177453-03:00 [DBG] Connection id ""0HN1DQDHT8EG5"" accepted.
+2024-02-15T00:08:31.6177450-03:00 [DBG] Connection id ""0HN1DQDHT8EG6"" accepted.
+2024-02-15T00:08:31.6216464-03:00 [DBG] Connection id ""0HN1DQDHT8EG5"" started.
+2024-02-15T00:08:31.6227159-03:00 [DBG] Connection id ""0HN1DQDHT8EG6"" started.
+2024-02-15T00:08:31.6334812-03:00 [DBG] Connection id ""0HN1DQDHT8EG6"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:08:31.6334797-03:00 [DBG] Connection id ""0HN1DQDHT8EG5"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:08:31.6392662-03:00 [DBG] Connection id ""0HN1DQDHT8EG6"" disconnecting.
+2024-02-15T00:08:31.6412464-03:00 [DBG] Connection id ""0HN1DQDHT8EG5"" disconnecting.
+2024-02-15T00:08:31.6503349-03:00 [DBG] Connection id ""0HN1DQDHT8EG6"" stopped.
+2024-02-15T00:08:31.6504255-03:00 [DBG] Connection id ""0HN1DQDHT8EG5"" stopped.
+2024-02-15T00:08:33.3360680-03:00 [DBG] Connection id ""0HN1DQDHT8EG7"" accepted.
+2024-02-15T00:08:33.3803137-03:00 [DBG] Connection id ""0HN1DQDHT8EG7"" started.
+2024-02-15T00:08:33.4684532-03:00 [DBG] Connection id ""0HN1DQDHT8EG8"" accepted.
+2024-02-15T00:08:33.5651533-03:00 [DBG] Connection id ""0HN1DQDHT8EG8"" started.
+2024-02-15T00:08:33.6679083-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T00:08:34.0694126-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T00:08:34.1182912-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T00:08:34.1321493-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:08:34.6212307-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T00:08:34.6996703-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T00:08:34.7641962-03:00 [DBG] Connection id ""0HN1DQDHT8EG9"" accepted.
+2024-02-15T00:08:34.7946197-03:00 [DBG] Connection id ""0HN1DQDHT8EG7"" completed keep alive response.
+2024-02-15T00:08:34.7806378-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T00:08:34.8002934-03:00 [DBG] Connection id ""0HN1DQDHT8EG9"" started.
+2024-02-15T00:08:34.8063356-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 1151.0628ms
+2024-02-15T00:08:34.8118062-03:00 [DBG] Connection id ""0HN1DQDHT8EG8"" completed keep alive response.
+2024-02-15T00:08:34.8072407-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T00:08:34.8168214-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 36.1094ms
+2024-02-15T00:08:35.0674578-03:00 [DBG] Connection id ""0HN1DQDHT8EG9"" completed keep alive response.
+2024-02-15T00:08:35.1874594-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 380.1539ms
+2024-02-15T00:08:35.2893263-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T00:08:35.3332885-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T00:08:35.3383552-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:08:35.5966245-03:00 [DBG] Connection id ""0HN1DQDHT8EG9"" completed keep alive response.
+2024-02-15T00:08:35.6000298-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 310.6977ms
+2024-02-15T00:08:41.5723913-03:00 [DBG] Connection id ""0HN1DQDHT8EGA"" accepted.
+2024-02-15T00:08:41.6010424-03:00 [DBG] Connection id ""0HN1DQDHT8EGA"" started.
+2024-02-15T00:08:41.6067351-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - -
+2024-02-15T00:08:41.6268176-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:08:41.6370784-03:00 [DBG] Request matched endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:08:41.6425277-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:08:41.6483989-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:08:41.6531882-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:08:41.6759245-03:00 [DBG] The request is a preflight request.
+2024-02-15T00:08:41.6846166-03:00 [DBG] Connection id ""0HN1DQDHT8EGA"" completed keep alive response.
+2024-02-15T00:08:41.6939440-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - - - 204 - - 87.0542ms
+2024-02-15T00:08:41.6975350-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/CartaoUsuario/AdicionarNovoCartao application/json 138
+2024-02-15T00:08:41.7044327-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:08:41.7163909-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/AdicionarNovoCartao"' is valid for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:08:41.7214403-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:08:41.7245076-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:08:41.7273213-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:08:41.7303380-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:08:41.7352119-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-15T00:08:41.7400395-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:08:41.8043156-03:00 [INF] Route matched with "{action = \"Cadastro\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Cadastro(PedagioPayApiControlador.Data.Dtos.TransacaoDto)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-15T00:08:41.8217416-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-15T00:08:41.8307167-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-15T00:08:41.8367485-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-15T00:08:41.8473340-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-15T00:08:41.8525563-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-15T00:08:41.8611724-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:08:42.1638303-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-15T00:08:42.2359548-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:08:42.2549872-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:08:42.2810078-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' using the name '""' in request data ...
+2024-02-15T00:08:42.2872322-03:00 [DBG] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2024-02-15T00:08:42.3209128-03:00 [DBG] Connection id ""0HN1DQDHT8EGA"", Request id ""0HN1DQDHT8EGA:00000003"": started reading request body.
+2024-02-15T00:08:42.3277825-03:00 [DBG] Connection id ""0HN1DQDHT8EGA"", Request id ""0HN1DQDHT8EGA:00000003"": done reading request body.
+2024-02-15T00:08:42.3867727-03:00 [DBG] JSON input formatter succeeded, deserializing to type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'
+2024-02-15T00:08:42.3942323-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:08:42.4011435-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:08:42.4060290-03:00 [DBG] Attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:08:42.4243792-03:00 [DBG] Done attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:11:20.5576638-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T00:11:20.7028558-03:00 [DBG] Hosting starting
+2024-02-15T00:11:20.9283214-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T00:11:20.9307955-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T00:11:20.9330626-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T00:11:20.9349511-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T00:11:20.9370168-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T00:11:20.9394763-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T00:11:20.9419349-03:00 [INF] Hosting environment: "Development"
+2024-02-15T00:11:20.9441330-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T00:11:20.9462034-03:00 [DBG] Hosting started
+2024-02-15T00:11:21.2299409-03:00 [DBG] Connection id ""0HN1DQF4EU7MM"" accepted.
+2024-02-15T00:11:21.2299411-03:00 [DBG] Connection id ""0HN1DQF4EU7MN"" accepted.
+2024-02-15T00:11:21.2346343-03:00 [DBG] Connection id ""0HN1DQF4EU7MM"" started.
+2024-02-15T00:11:21.2361138-03:00 [DBG] Connection id ""0HN1DQF4EU7MN"" started.
+2024-02-15T00:11:21.2465485-03:00 [DBG] Connection id ""0HN1DQF4EU7MM"" received FIN.
+2024-02-15T00:11:21.2474120-03:00 [DBG] Connection id ""0HN1DQF4EU7MN"" received FIN.
+2024-02-15T00:11:21.2662882-03:00 [DBG] Connection id ""0HN1DQF4EU7MN"" disconnecting.
+2024-02-15T00:11:21.2670124-03:00 [DBG] Connection id ""0HN1DQF4EU7MM"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:11:21.2704485-03:00 [DBG] Connection id ""0HN1DQF4EU7MN"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:11:21.2742818-03:00 [DBG] Connection id ""0HN1DQF4EU7MM"" disconnecting.
+2024-02-15T00:11:21.2810964-03:00 [DBG] Connection id ""0HN1DQF4EU7MM"" stopped.
+2024-02-15T00:11:21.2872376-03:00 [DBG] Connection id ""0HN1DQF4EU7MN"" stopped.
+2024-02-15T00:11:23.1875385-03:00 [DBG] Connection id ""0HN1DQF4EU7MO"" accepted.
+2024-02-15T00:11:23.2183582-03:00 [DBG] Connection id ""0HN1DQF4EU7MO"" started.
+2024-02-15T00:11:23.3012179-03:00 [DBG] Connection id ""0HN1DQF4EU7MP"" accepted.
+2024-02-15T00:11:23.4467421-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T00:11:23.3692351-03:00 [DBG] Connection id ""0HN1DQF4EU7MP"" started.
+2024-02-15T00:11:23.7958857-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T00:11:23.8462687-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T00:11:23.8514484-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:11:24.3315306-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T00:11:24.4020161-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T00:11:24.4125616-03:00 [DBG] Connection id ""0HN1DQF4EU7MO"" completed keep alive response.
+2024-02-15T00:11:24.4550709-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T00:11:24.4698295-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 1040.4691ms
+2024-02-15T00:11:24.5064295-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T00:11:24.5191015-03:00 [DBG] Connection id ""0HN1DQF4EU7MO"" completed keep alive response.
+2024-02-15T00:11:24.5236919-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 17.2080ms
+2024-02-15T00:11:24.7918841-03:00 [DBG] Connection id ""0HN1DQF4EU7MP"" completed keep alive response.
+2024-02-15T00:11:24.9135987-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 458.4871ms
+2024-02-15T00:11:24.9669864-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T00:11:24.9799406-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T00:11:24.9871274-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:11:25.4639145-03:00 [DBG] Connection id ""0HN1DQF4EU7MP"" completed keep alive response.
+2024-02-15T00:11:25.5409597-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 573.9388ms
+2024-02-15T00:11:27.1036222-03:00 [DBG] Connection id ""0HN1DQF4EU7MQ"" accepted.
+2024-02-15T00:11:27.1219219-03:00 [DBG] Connection id ""0HN1DQF4EU7MQ"" started.
+2024-02-15T00:11:27.1624184-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - -
+2024-02-15T00:11:27.1813044-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:11:27.1951631-03:00 [DBG] Request matched endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:11:27.2007679-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:11:27.2066359-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:11:27.2119491-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:11:27.2161489-03:00 [DBG] The request is a preflight request.
+2024-02-15T00:11:27.2272815-03:00 [DBG] Connection id ""0HN1DQF4EU7MQ"" completed keep alive response.
+2024-02-15T00:11:27.2347688-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - - - 204 - - 72.3419ms
+2024-02-15T00:11:27.2377197-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/CartaoUsuario/AdicionarNovoCartao application/json 138
+2024-02-15T00:11:27.2440427-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:11:27.2906902-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/AdicionarNovoCartao"' is valid for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:11:27.3584887-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:11:27.3641736-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:11:27.3732412-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:11:27.3780987-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:11:27.3830659-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-15T00:11:27.3924427-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:11:27.4463154-03:00 [INF] Route matched with "{action = \"Cadastro\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Cadastro(PedagioPayApiControlador.Data.Dtos.TransacaoDto)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-15T00:11:27.4578073-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-15T00:11:27.4629807-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-15T00:11:27.4703081-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-15T00:11:27.4767953-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-15T00:11:27.4839088-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-15T00:11:27.4906963-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:11:27.8406430-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-15T00:11:27.8814463-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:11:27.8913591-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:11:27.8993877-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' using the name '""' in request data ...
+2024-02-15T00:11:27.9059086-03:00 [DBG] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2024-02-15T00:11:27.9436641-03:00 [DBG] Connection id ""0HN1DQF4EU7MQ"", Request id ""0HN1DQF4EU7MQ:00000003"": started reading request body.
+2024-02-15T00:11:27.9514694-03:00 [DBG] Connection id ""0HN1DQF4EU7MQ"", Request id ""0HN1DQF4EU7MQ:00000003"": done reading request body.
+2024-02-15T00:11:28.0329226-03:00 [DBG] JSON input formatter succeeded, deserializing to type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'
+2024-02-15T00:11:28.0764777-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:11:28.0850793-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:11:28.0919632-03:00 [DBG] Attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:11:28.1262777-03:00 [DBG] Done attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:13:18.0669967-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T00:13:18.2081752-03:00 [DBG] Hosting starting
+2024-02-15T00:13:18.3933744-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T00:13:18.3959675-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T00:13:18.3981280-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T00:13:18.4000765-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T00:13:18.4022224-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T00:13:18.4049065-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T00:13:18.4073448-03:00 [INF] Hosting environment: "Development"
+2024-02-15T00:13:18.4118621-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T00:13:18.4140633-03:00 [DBG] Hosting started
+2024-02-15T00:13:18.4667862-03:00 [DBG] Connection id ""0HN1DQG7D228Q"" received FIN.
+2024-02-15T00:13:18.4667880-03:00 [DBG] Connection id ""0HN1DQG7D228P"" received FIN.
+2024-02-15T00:13:18.4921701-03:00 [DBG] Connection id ""0HN1DQG7D228P"" accepted.
+2024-02-15T00:13:18.4921697-03:00 [DBG] Connection id ""0HN1DQG7D228Q"" accepted.
+2024-02-15T00:13:18.5055829-03:00 [DBG] Connection id ""0HN1DQG7D228Q"" started.
+2024-02-15T00:13:18.5055835-03:00 [DBG] Connection id ""0HN1DQG7D228P"" started.
+2024-02-15T00:13:18.5230124-03:00 [DBG] Connection id ""0HN1DQG7D228P"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:13:18.5230101-03:00 [DBG] Connection id ""0HN1DQG7D228Q"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:13:18.5299575-03:00 [DBG] Connection id ""0HN1DQG7D228P"" disconnecting.
+2024-02-15T00:13:18.5321626-03:00 [DBG] Connection id ""0HN1DQG7D228Q"" disconnecting.
+2024-02-15T00:13:18.5418960-03:00 [DBG] Connection id ""0HN1DQG7D228Q"" stopped.
+2024-02-15T00:13:18.5418964-03:00 [DBG] Connection id ""0HN1DQG7D228P"" stopped.
+2024-02-15T00:13:18.6089110-03:00 [DBG] Connection id ""0HN1DQG7D228R"" accepted.
+2024-02-15T00:13:18.6330818-03:00 [DBG] Connection id ""0HN1DQG7D228R"" started.
+2024-02-15T00:13:18.6961684-03:00 [DBG] Connection id ""0HN1DQG7D228S"" accepted.
+2024-02-15T00:13:18.8168190-03:00 [DBG] Connection id ""0HN1DQG7D228S"" started.
+2024-02-15T00:13:18.8901426-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T00:13:19.2664729-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T00:13:19.3214960-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T00:13:19.3244610-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:13:19.6602199-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T00:13:19.7001794-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T00:13:19.7323348-03:00 [DBG] Connection id ""0HN1DQG7D228T"" accepted.
+2024-02-15T00:13:19.7862241-03:00 [DBG] Connection id ""0HN1DQG7D228R"" completed keep alive response.
+2024-02-15T00:13:19.7772741-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T00:13:19.7988235-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 917.7389ms
+2024-02-15T00:13:19.8083965-03:00 [DBG] Connection id ""0HN1DQG7D228S"" completed keep alive response.
+2024-02-15T00:13:19.8166623-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 39.3238ms
+2024-02-15T00:13:19.7889312-03:00 [DBG] Connection id ""0HN1DQG7D228T"" started.
+2024-02-15T00:13:19.8241714-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T00:13:20.0184987-03:00 [DBG] Connection id ""0HN1DQG7D228T"" completed keep alive response.
+2024-02-15T00:13:20.0818147-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 257.5553ms
+2024-02-15T00:13:20.1187432-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T00:13:20.1223758-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T00:13:20.1252011-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:13:20.4721718-03:00 [DBG] Connection id ""0HN1DQG7D228T"" completed keep alive response.
+2024-02-15T00:13:20.4763907-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 357.6485ms
+2024-02-15T00:13:27.6317199-03:00 [DBG] Connection id ""0HN1DQG7D228U"" accepted.
+2024-02-15T00:13:27.6619548-03:00 [DBG] Connection id ""0HN1DQG7D228U"" started.
+2024-02-15T00:13:27.6660220-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - -
+2024-02-15T00:13:27.6797417-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:13:27.6880737-03:00 [DBG] Request matched endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:13:27.6930978-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:13:27.6980294-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:13:27.7020501-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:13:27.7048950-03:00 [DBG] The request is a preflight request.
+2024-02-15T00:13:27.7083990-03:00 [DBG] Connection id ""0HN1DQG7D228U"" completed keep alive response.
+2024-02-15T00:13:27.7138816-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - - - 204 - - 47.7941ms
+2024-02-15T00:13:27.7174896-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/CartaoUsuario/AdicionarNovoCartao application/json 138
+2024-02-15T00:13:27.7241803-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:13:27.7367400-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/AdicionarNovoCartao"' is valid for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:13:27.7437947-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:13:27.7487077-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:13:27.7521384-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:13:27.7561851-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:13:27.7614064-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-15T00:13:27.7683684-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:13:27.8223691-03:00 [INF] Route matched with "{action = \"Cadastro\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Cadastro(PedagioPayApiControlador.Data.Dtos.TransacaoDto)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-15T00:13:27.8359101-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-15T00:13:27.8421213-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-15T00:13:27.8541533-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-15T00:13:27.8640137-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-15T00:13:27.8690812-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-15T00:13:27.8758326-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:13:28.1324288-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-15T00:13:28.1818119-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:13:28.1933348-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:13:28.2022355-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' using the name '""' in request data ...
+2024-02-15T00:13:28.2101895-03:00 [DBG] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2024-02-15T00:13:28.2485994-03:00 [DBG] Connection id ""0HN1DQG7D228U"", Request id ""0HN1DQG7D228U:00000003"": started reading request body.
+2024-02-15T00:13:28.2543192-03:00 [DBG] Connection id ""0HN1DQG7D228U"", Request id ""0HN1DQG7D228U:00000003"": done reading request body.
+2024-02-15T00:13:28.3228032-03:00 [DBG] JSON input formatter succeeded, deserializing to type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'
+2024-02-15T00:13:28.3282232-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:13:28.3343195-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:13:28.3430180-03:00 [DBG] Attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:13:28.3603726-03:00 [DBG] Done attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:16:08.4206460-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T00:16:08.5434919-03:00 [DBG] Hosting starting
+2024-02-15T00:16:08.6930039-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T00:16:08.6950299-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T00:16:08.6973118-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T00:16:08.6994426-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T00:16:08.7019071-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T00:16:08.7047874-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T00:16:08.7084716-03:00 [INF] Hosting environment: "Development"
+2024-02-15T00:16:08.7117399-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T00:16:08.7140900-03:00 [DBG] Hosting started
+2024-02-15T00:16:08.7248404-03:00 [DBG] Connection id ""0HN1DQHQ4N8NE"" accepted.
+2024-02-15T00:16:08.7322774-03:00 [DBG] Connection id ""0HN1DQHQ4N8NE"" started.
+2024-02-15T00:16:08.7549776-03:00 [DBG] Connection id ""0HN1DQHQ4N8NE"" received FIN.
+2024-02-15T00:16:08.7711585-03:00 [DBG] Connection id ""0HN1DQHQ4N8NE"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:16:08.7878817-03:00 [DBG] Connection id ""0HN1DQHQ4N8NE"" disconnecting.
+2024-02-15T00:16:08.7972310-03:00 [DBG] Connection id ""0HN1DQHQ4N8NE"" stopped.
+2024-02-15T00:16:08.8983012-03:00 [DBG] Connection id ""0HN1DQHQ4N8NF"" accepted.
+2024-02-15T00:16:08.9143182-03:00 [DBG] Connection id ""0HN1DQHQ4N8NF"" started.
+2024-02-15T00:16:08.9734956-03:00 [DBG] Connection id ""0HN1DQHQ4N8NG"" accepted.
+2024-02-15T00:16:08.9909125-03:00 [DBG] Connection id ""0HN1DQHQ4N8NG"" started.
+2024-02-15T00:16:09.1227146-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T00:16:09.4549940-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T00:16:09.5073412-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T00:16:09.5138840-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:16:09.9023202-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T00:16:09.9730180-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T00:16:09.9922814-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T00:16:10.0072128-03:00 [DBG] Connection id ""0HN1DQHQ4N8NF"" completed keep alive response.
+2024-02-15T00:16:09.9866754-03:00 [DBG] Connection id ""0HN1DQHQ4N8NH"" accepted.
+2024-02-15T00:16:10.0172609-03:00 [DBG] Connection id ""0HN1DQHQ4N8NG"" completed keep alive response.
+2024-02-15T00:16:10.0195461-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 910.7397ms
+2024-02-15T00:16:10.0219167-03:00 [DBG] Connection id ""0HN1DQHQ4N8NH"" started.
+2024-02-15T00:16:10.0213254-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 28.9361ms
+2024-02-15T00:16:10.0361553-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T00:16:10.3076064-03:00 [DBG] Connection id ""0HN1DQHQ4N8NH"" completed keep alive response.
+2024-02-15T00:16:10.3367833-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 300.6196ms
+2024-02-15T00:16:10.4042127-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T00:16:10.4149552-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T00:16:10.4183855-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:16:10.6673015-03:00 [DBG] Connection id ""0HN1DQHQ4N8NH"" completed keep alive response.
+2024-02-15T00:16:10.6835027-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 279.2658ms
+2024-02-15T00:16:31.4683883-03:00 [DBG] Connection id ""0HN1DQHQ4N8NI"" accepted.
+2024-02-15T00:16:31.5168143-03:00 [DBG] Connection id ""0HN1DQHQ4N8NI"" started.
+2024-02-15T00:16:31.5212728-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - -
+2024-02-15T00:16:31.5584291-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:16:31.5658360-03:00 [DBG] Request matched endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:16:31.5707184-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:16:31.5747362-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:16:31.5790930-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:16:31.5824450-03:00 [DBG] The request is a preflight request.
+2024-02-15T00:16:31.5885542-03:00 [DBG] Connection id ""0HN1DQHQ4N8NI"" completed keep alive response.
+2024-02-15T00:16:31.6150304-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - - - 204 - - 93.7430ms
+2024-02-15T00:16:31.6194256-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/CartaoUsuario/AdicionarNovoCartao application/json 138
+2024-02-15T00:16:31.6237129-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:16:31.6350092-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/AdicionarNovoCartao"' is valid for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:16:31.6415987-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:16:31.6447057-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:16:31.6499196-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:16:31.6546530-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:16:31.6612255-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-15T00:16:31.6663770-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:16:31.7324556-03:00 [INF] Route matched with "{action = \"Cadastro\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Cadastro(PedagioPayApiControlador.Data.Dtos.TransacaoDto)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-15T00:16:31.7398810-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-15T00:16:31.7460959-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-15T00:16:31.7513123-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-15T00:16:31.7582587-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-15T00:16:31.7620917-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-15T00:16:31.7694341-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:16:32.0533086-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-15T00:16:32.0992104-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:16:32.1113570-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:16:32.1211349-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' using the name '""' in request data ...
+2024-02-15T00:16:32.1362531-03:00 [DBG] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2024-02-15T00:16:32.1731692-03:00 [DBG] Connection id ""0HN1DQHQ4N8NI"", Request id ""0HN1DQHQ4N8NI:00000003"": started reading request body.
+2024-02-15T00:16:32.1791399-03:00 [DBG] Connection id ""0HN1DQHQ4N8NI"", Request id ""0HN1DQHQ4N8NI:00000003"": done reading request body.
+2024-02-15T00:16:32.2311254-03:00 [DBG] JSON input formatter succeeded, deserializing to type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'
+2024-02-15T00:16:32.2363953-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:16:32.2441764-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:16:32.2501399-03:00 [DBG] Attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:16:32.2831298-03:00 [DBG] Done attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:24:03.2035928-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T00:24:03.3114602-03:00 [DBG] Hosting starting
+2024-02-15T00:24:03.5406837-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T00:24:03.5420508-03:00 [DBG] Connection id ""0HN1DQM7KTLKP"" accepted.
+2024-02-15T00:24:03.5430664-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T00:24:03.5479076-03:00 [DBG] Connection id ""0HN1DQM7KTLKP"" started.
+2024-02-15T00:24:03.5481116-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T00:24:03.5564888-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T00:24:03.5600690-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T00:24:03.5627888-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T00:24:03.5662360-03:00 [INF] Hosting environment: "Development"
+2024-02-15T00:24:03.5687864-03:00 [DBG] Connection id ""0HN1DQM7KTLKP"" received FIN.
+2024-02-15T00:24:03.5704305-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T00:24:03.5773831-03:00 [DBG] Hosting started
+2024-02-15T00:24:03.5881445-03:00 [DBG] Connection id ""0HN1DQM7KTLKP"" disconnecting.
+2024-02-15T00:24:03.6105732-03:00 [DBG] Connection id ""0HN1DQM7KTLKP"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:24:03.6196520-03:00 [DBG] Connection id ""0HN1DQM7KTLKP"" stopped.
+2024-02-15T00:24:03.7879801-03:00 [DBG] Connection id ""0HN1DQM7KTLKQ"" accepted.
+2024-02-15T00:24:03.9120951-03:00 [DBG] Connection id ""0HN1DQM7KTLKR"" accepted.
+2024-02-15T00:24:03.8034618-03:00 [DBG] Connection id ""0HN1DQM7KTLKQ"" started.
+2024-02-15T00:24:03.9685489-03:00 [DBG] Connection id ""0HN1DQM7KTLKR"" started.
+2024-02-15T00:24:04.0484813-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T00:24:04.4710897-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T00:24:04.5222365-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T00:24:04.5294535-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:24:04.9302309-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T00:24:04.9933155-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T00:24:05.0007923-03:00 [DBG] Connection id ""0HN1DQM7KTLKS"" accepted.
+2024-02-15T00:24:05.0083290-03:00 [DBG] Connection id ""0HN1DQM7KTLKQ"" completed keep alive response.
+2024-02-15T00:24:05.0139467-03:00 [DBG] Connection id ""0HN1DQM7KTLKS"" started.
+2024-02-15T00:24:05.0074033-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T00:24:05.0193913-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 981.6842ms
+2024-02-15T00:24:05.0190244-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T00:24:05.0259375-03:00 [DBG] Connection id ""0HN1DQM7KTLKR"" completed keep alive response.
+2024-02-15T00:24:05.0308334-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 23.3147ms
+2024-02-15T00:24:05.1328014-03:00 [DBG] Connection id ""0HN1DQM7KTLKS"" completed keep alive response.
+2024-02-15T00:24:05.1372168-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 118.1761ms
+2024-02-15T00:24:05.3810359-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T00:24:05.3962280-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T00:24:05.4342233-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:24:05.6468296-03:00 [DBG] Connection id ""0HN1DQM7KTLKS"" completed keep alive response.
+2024-02-15T00:24:05.6526486-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 271.5839ms
+2024-02-15T00:24:14.2624799-03:00 [DBG] Connection id ""0HN1DQM7KTLKT"" accepted.
+2024-02-15T00:24:14.2670454-03:00 [DBG] Connection id ""0HN1DQM7KTLKT"" started.
+2024-02-15T00:24:14.2957793-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - -
+2024-02-15T00:24:14.3123314-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:24:14.3231012-03:00 [DBG] Request matched endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:24:14.3290342-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:24:14.3345713-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:24:14.3407481-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:24:14.3458968-03:00 [DBG] The request is a preflight request.
+2024-02-15T00:24:14.3590057-03:00 [DBG] Connection id ""0HN1DQM7KTLKT"" completed keep alive response.
+2024-02-15T00:24:14.3665603-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - - - 204 - - 70.7659ms
+2024-02-15T00:24:14.3748594-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/CartaoUsuario/AdicionarNovoCartao application/json 138
+2024-02-15T00:24:14.3841656-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:24:14.4010551-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/AdicionarNovoCartao"' is valid for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:24:14.4090219-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:24:14.4148230-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:24:14.4174332-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:24:14.4210755-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:24:14.4278823-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-15T00:24:14.4337325-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:24:14.4843511-03:00 [INF] Route matched with "{action = \"Cadastro\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Cadastro(PedagioPayApiControlador.Data.Dtos.TransacaoDto)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-15T00:24:14.4999489-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-15T00:24:14.5130819-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-15T00:24:14.5203883-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-15T00:24:14.5283949-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-15T00:24:14.5369303-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-15T00:24:14.5430236-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:24:14.8443579-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-15T00:24:14.9224669-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:24:14.9453977-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:24:14.9590882-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' using the name '""' in request data ...
+2024-02-15T00:24:14.9676851-03:00 [DBG] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2024-02-15T00:24:15.0092481-03:00 [DBG] Connection id ""0HN1DQM7KTLKT"", Request id ""0HN1DQM7KTLKT:00000003"": started reading request body.
+2024-02-15T00:24:15.0152954-03:00 [DBG] Connection id ""0HN1DQM7KTLKT"", Request id ""0HN1DQM7KTLKT:00000003"": done reading request body.
+2024-02-15T00:24:15.0741666-03:00 [DBG] JSON input formatter succeeded, deserializing to type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'
+2024-02-15T00:24:15.0792607-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:24:15.0841585-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:24:15.0905070-03:00 [DBG] Attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:24:15.1307462-03:00 [DBG] Done attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:25:01.4203445-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T00:25:01.5471533-03:00 [DBG] Hosting starting
+2024-02-15T00:25:01.7226743-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T00:25:01.7249983-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T00:25:01.7275353-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T00:25:01.7308326-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T00:25:01.7336362-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T00:25:01.7369076-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T00:25:01.7411130-03:00 [INF] Hosting environment: "Development"
+2024-02-15T00:25:01.7437120-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T00:25:01.7462292-03:00 [DBG] Hosting started
+2024-02-15T00:25:02.3041878-03:00 [DBG] Connection id ""0HN1DQMP5C2V9"" received FIN.
+2024-02-15T00:25:02.3859314-03:00 [DBG] Connection id ""0HN1DQMP5C2V9"" accepted.
+2024-02-15T00:25:02.3921694-03:00 [DBG] Connection id ""0HN1DQMP5C2V9"" started.
+2024-02-15T00:25:02.4088770-03:00 [DBG] Connection id ""0HN1DQMP5C2V9"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:25:02.4245581-03:00 [DBG] Connection id ""0HN1DQMP5C2V9"" disconnecting.
+2024-02-15T00:25:02.4382136-03:00 [DBG] Connection id ""0HN1DQMP5C2V9"" stopped.
+2024-02-15T00:25:04.0693945-03:00 [DBG] Connection id ""0HN1DQMP5C2VA"" accepted.
+2024-02-15T00:25:04.1557925-03:00 [DBG] Connection id ""0HN1DQMP5C2VB"" accepted.
+2024-02-15T00:25:04.0933003-03:00 [DBG] Connection id ""0HN1DQMP5C2VA"" started.
+2024-02-15T00:25:04.2134166-03:00 [DBG] Connection id ""0HN1DQMP5C2VB"" started.
+2024-02-15T00:25:04.3148296-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T00:25:04.7135922-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T00:25:04.7482204-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T00:25:04.7536504-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:25:05.2320260-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T00:25:05.2873820-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T00:25:05.2980625-03:00 [DBG] Connection id ""0HN1DQMP5C2VC"" accepted.
+2024-02-15T00:25:05.3157354-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T00:25:05.3154988-03:00 [DBG] Connection id ""0HN1DQMP5C2VA"" completed keep alive response.
+2024-02-15T00:25:05.3343744-03:00 [DBG] Connection id ""0HN1DQMP5C2VB"" completed keep alive response.
+2024-02-15T00:25:05.3365697-03:00 [DBG] Connection id ""0HN1DQMP5C2VC"" started.
+2024-02-15T00:25:05.3420342-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 1040.1597ms
+2024-02-15T00:25:05.3449229-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T00:25:05.3420267-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 25.7991ms
+2024-02-15T00:25:05.5912929-03:00 [DBG] Connection id ""0HN1DQMP5C2VC"" completed keep alive response.
+2024-02-15T00:25:05.5971039-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 252.0241ms
+2024-02-15T00:25:05.6784988-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T00:25:05.6821836-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T00:25:05.6887327-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:25:05.9602776-03:00 [DBG] Connection id ""0HN1DQMP5C2VC"" completed keep alive response.
+2024-02-15T00:25:05.9644420-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 285.9257ms
+2024-02-15T00:25:22.3972120-03:00 [DBG] Connection id ""0HN1DQMP5C2VD"" accepted.
+2024-02-15T00:25:22.4428005-03:00 [DBG] Connection id ""0HN1DQMP5C2VD"" started.
+2024-02-15T00:25:22.4465252-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - -
+2024-02-15T00:25:22.4578277-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:25:22.4649798-03:00 [DBG] Request matched endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:25:22.4708201-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:25:22.4746283-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:25:22.4795688-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:25:22.4837133-03:00 [DBG] The request is a preflight request.
+2024-02-15T00:25:22.4870592-03:00 [DBG] Connection id ""0HN1DQMP5C2VD"" completed keep alive response.
+2024-02-15T00:25:22.4944436-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - - - 204 - - 47.7861ms
+2024-02-15T00:25:22.5004504-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/CartaoUsuario/AdicionarNovoCartao application/json 138
+2024-02-15T00:25:22.5070316-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:25:22.5301199-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/AdicionarNovoCartao"' is valid for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:25:22.5372402-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:25:22.5419371-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:25:22.5459192-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:25:22.5499455-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:25:22.5574799-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-15T00:25:22.5722969-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:25:22.6236176-03:00 [INF] Route matched with "{action = \"Cadastro\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Cadastro(PedagioPayApiControlador.Data.Dtos.TransacaoDto)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-15T00:25:22.6347949-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-15T00:25:22.6424565-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-15T00:25:22.6495084-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-15T00:25:22.6570883-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-15T00:25:22.6634434-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-15T00:25:22.6707667-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:25:22.9261683-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-15T00:25:22.9749778-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:25:22.9874113-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:25:23.0012501-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' using the name '""' in request data ...
+2024-02-15T00:25:23.0173181-03:00 [DBG] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2024-02-15T00:25:23.0550971-03:00 [DBG] Connection id ""0HN1DQMP5C2VD"", Request id ""0HN1DQMP5C2VD:00000003"": started reading request body.
+2024-02-15T00:25:23.0646940-03:00 [DBG] Connection id ""0HN1DQMP5C2VD"", Request id ""0HN1DQMP5C2VD:00000003"": done reading request body.
+2024-02-15T00:25:23.1319944-03:00 [DBG] JSON input formatter succeeded, deserializing to type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'
+2024-02-15T00:25:23.1375449-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:25:23.1434723-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:25:23.1498844-03:00 [DBG] Attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:25:23.1736625-03:00 [DBG] Done attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:27:27.0209407-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T00:27:27.2464105-03:00 [DBG] Hosting starting
+2024-02-15T00:27:27.6637358-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T00:27:27.6660624-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T00:27:27.6685483-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T00:27:27.6714253-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T00:27:27.6758669-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T00:27:27.6806038-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T00:27:27.6964405-03:00 [INF] Hosting environment: "Development"
+2024-02-15T00:27:27.6995503-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T00:27:27.7026062-03:00 [DBG] Hosting started
+2024-02-15T00:27:28.1791175-03:00 [DBG] Connection id ""0HN1DQO4KHMCT"" received FIN.
+2024-02-15T00:27:28.2007541-03:00 [DBG] Connection id ""0HN1DQO4KHMCT"" accepted.
+2024-02-15T00:27:28.2058274-03:00 [DBG] Connection id ""0HN1DQO4KHMCT"" started.
+2024-02-15T00:27:28.2188942-03:00 [DBG] Connection id ""0HN1DQO4KHMCT"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:27:28.2266580-03:00 [DBG] Connection id ""0HN1DQO4KHMCT"" disconnecting.
+2024-02-15T00:27:28.2413393-03:00 [DBG] Connection id ""0HN1DQO4KHMCT"" stopped.
+2024-02-15T00:27:28.9347672-03:00 [DBG] Connection id ""0HN1DQO4KHMCU"" accepted.
+2024-02-15T00:27:29.0431770-03:00 [DBG] Connection id ""0HN1DQO4KHMCV"" accepted.
+2024-02-15T00:27:28.9606063-03:00 [DBG] Connection id ""0HN1DQO4KHMCU"" started.
+2024-02-15T00:27:29.0918482-03:00 [DBG] Connection id ""0HN1DQO4KHMCV"" started.
+2024-02-15T00:27:29.3111098-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T00:27:29.7898291-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T00:27:29.8406479-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T00:27:29.8444385-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:27:30.3441031-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T00:27:30.4007968-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T00:27:30.4151650-03:00 [DBG] Connection id ""0HN1DQO4KHMD0"" accepted.
+2024-02-15T00:27:30.4594618-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T00:27:30.4726872-03:00 [DBG] Connection id ""0HN1DQO4KHMD0"" started.
+2024-02-15T00:27:30.4644121-03:00 [DBG] Connection id ""0HN1DQO4KHMCU"" completed keep alive response.
+2024-02-15T00:27:30.5084873-03:00 [DBG] Connection id ""0HN1DQO4KHMCV"" completed keep alive response.
+2024-02-15T00:27:30.5488697-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 89.3383ms
+2024-02-15T00:27:30.5407506-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T00:27:30.5475940-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 1255.2913ms
+2024-02-15T00:27:30.7001863-03:00 [DBG] Connection id ""0HN1DQO4KHMD0"" completed keep alive response.
+2024-02-15T00:27:30.7070607-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 166.2591ms
+2024-02-15T00:27:30.8083467-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T00:27:30.8644484-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T00:27:30.8764253-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:27:31.1360757-03:00 [DBG] Connection id ""0HN1DQO4KHMD0"" completed keep alive response.
+2024-02-15T00:27:31.1439061-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 335.5504ms
+2024-02-15T00:27:45.0551369-03:00 [DBG] Connection id ""0HN1DQO4KHMD1"" accepted.
+2024-02-15T00:27:45.1030319-03:00 [DBG] Connection id ""0HN1DQO4KHMD1"" started.
+2024-02-15T00:27:45.1061102-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - -
+2024-02-15T00:27:45.1161134-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:27:45.1238398-03:00 [DBG] Request matched endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:27:45.1294241-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:27:45.1349127-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:27:45.1392558-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:27:45.1440025-03:00 [DBG] The request is a preflight request.
+2024-02-15T00:27:45.1483730-03:00 [DBG] Connection id ""0HN1DQO4KHMD1"" completed keep alive response.
+2024-02-15T00:27:45.1536994-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - - - 204 - - 47.4372ms
+2024-02-15T00:27:45.1569032-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/CartaoUsuario/AdicionarNovoCartao application/json 138
+2024-02-15T00:27:45.2414083-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:27:45.2566295-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/AdicionarNovoCartao"' is valid for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:27:45.2646922-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:27:45.2699189-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:27:45.2739227-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:27:45.2776363-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:27:45.2837552-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-15T00:27:45.2957818-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:27:45.3642124-03:00 [INF] Route matched with "{action = \"Cadastro\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Cadastro(PedagioPayApiControlador.Data.Dtos.TransacaoDto)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-15T00:27:45.3727982-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-15T00:27:45.3799137-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-15T00:27:45.3853062-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-15T00:27:45.3915415-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-15T00:27:45.4002810-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-15T00:27:45.4058650-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:27:45.7015830-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-15T00:27:45.7872724-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:27:45.8000522-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:27:45.8127909-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' using the name '""' in request data ...
+2024-02-15T00:27:45.8213342-03:00 [DBG] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2024-02-15T00:27:45.8564500-03:00 [DBG] Connection id ""0HN1DQO4KHMD1"", Request id ""0HN1DQO4KHMD1:00000003"": started reading request body.
+2024-02-15T00:27:45.8625115-03:00 [DBG] Connection id ""0HN1DQO4KHMD1"", Request id ""0HN1DQO4KHMD1:00000003"": done reading request body.
+2024-02-15T00:27:45.9439481-03:00 [DBG] JSON input formatter succeeded, deserializing to type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'
+2024-02-15T00:27:45.9667595-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:27:45.9920091-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:27:46.0024742-03:00 [DBG] Attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:27:46.0243995-03:00 [DBG] Done attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:34:47.2043575-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T00:34:47.2968196-03:00 [DBG] Hosting starting
+2024-02-15T00:34:47.4635552-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T00:34:47.4659461-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T00:34:47.4707875-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T00:34:47.4730128-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T00:34:47.4765048-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T00:34:47.4826487-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T00:34:47.4889984-03:00 [INF] Hosting environment: "Development"
+2024-02-15T00:34:47.4923369-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T00:34:47.4945301-03:00 [DBG] Hosting started
+2024-02-15T00:34:47.5367997-03:00 [DBG] Connection id ""0HN1DQS7IHECE"" received FIN.
+2024-02-15T00:34:47.5380815-03:00 [DBG] Connection id ""0HN1DQS7IHECE"" accepted.
+2024-02-15T00:34:47.5484205-03:00 [DBG] Connection id ""0HN1DQS7IHECE"" started.
+2024-02-15T00:34:47.5678154-03:00 [DBG] Connection id ""0HN1DQS7IHECE"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:34:47.5742744-03:00 [DBG] Connection id ""0HN1DQS7IHECE"" disconnecting.
+2024-02-15T00:34:47.5855244-03:00 [DBG] Connection id ""0HN1DQS7IHECE"" stopped.
+2024-02-15T00:34:47.6830174-03:00 [DBG] Connection id ""0HN1DQS7IHECF"" accepted.
+2024-02-15T00:34:47.7982878-03:00 [DBG] Connection id ""0HN1DQS7IHECG"" accepted.
+2024-02-15T00:34:47.6963821-03:00 [DBG] Connection id ""0HN1DQS7IHECF"" started.
+2024-02-15T00:34:47.8721694-03:00 [DBG] Connection id ""0HN1DQS7IHECG"" started.
+2024-02-15T00:34:48.0610322-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T00:34:48.4472008-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T00:34:48.4931133-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T00:34:48.4962099-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:34:48.8493008-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T00:34:48.8867588-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T00:34:48.9068671-03:00 [DBG] Connection id ""0HN1DQS7IHECF"" completed keep alive response.
+2024-02-15T00:34:48.9148975-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 860.6200ms
+2024-02-15T00:34:48.9285037-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T00:34:48.9362819-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T00:34:48.9457963-03:00 [DBG] Connection id ""0HN1DQS7IHECF"" completed keep alive response.
+2024-02-15T00:34:48.9488559-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 12.3045ms
+2024-02-15T00:34:49.1768582-03:00 [DBG] Connection id ""0HN1DQS7IHECG"" completed keep alive response.
+2024-02-15T00:34:49.1844556-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 255.2935ms
+2024-02-15T00:34:49.2620308-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T00:34:49.2656449-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T00:34:49.3555220-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:34:49.7212936-03:00 [DBG] Connection id ""0HN1DQS7IHECG"" completed keep alive response.
+2024-02-15T00:34:49.9153082-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 653.2568ms
+2024-02-15T00:35:02.6873091-03:00 [DBG] Connection id ""0HN1DQS7IHECH"" accepted.
+2024-02-15T00:35:02.7352621-03:00 [DBG] Connection id ""0HN1DQS7IHECH"" started.
+2024-02-15T00:35:02.7470388-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - -
+2024-02-15T00:35:02.7977129-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:35:02.8065411-03:00 [DBG] Request matched endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:35:02.8114125-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:35:02.8181810-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:35:02.8224452-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:35:02.8258516-03:00 [DBG] The request is a preflight request.
+2024-02-15T00:35:02.8313669-03:00 [DBG] Connection id ""0HN1DQS7IHECH"" completed keep alive response.
+2024-02-15T00:35:02.8350814-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - - - 204 - - 87.9203ms
+2024-02-15T00:35:02.8389243-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/CartaoUsuario/AdicionarNovoCartao application/json 138
+2024-02-15T00:35:02.8463668-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:35:02.8581195-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/AdicionarNovoCartao"' is valid for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:35:02.8681519-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:35:02.8733126-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:35:02.8775907-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:35:02.8821823-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:35:02.8875327-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-15T00:35:02.8939546-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:35:02.9626028-03:00 [INF] Route matched with "{action = \"Cadastro\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Cadastro(PedagioPayApiControlador.Data.Dtos.TransacaoDto)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-15T00:35:02.9780445-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-15T00:35:02.9841111-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-15T00:35:02.9908160-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-15T00:35:03.0008040-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-15T00:35:03.0078844-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-15T00:35:03.0213499-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:35:03.2887544-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-15T00:35:03.3341199-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:35:03.3434356-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:35:03.3519311-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' using the name '""' in request data ...
+2024-02-15T00:35:03.3586666-03:00 [DBG] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2024-02-15T00:35:03.4183866-03:00 [DBG] Connection id ""0HN1DQS7IHECH"", Request id ""0HN1DQS7IHECH:00000003"": started reading request body.
+2024-02-15T00:35:03.4249697-03:00 [DBG] Connection id ""0HN1DQS7IHECH"", Request id ""0HN1DQS7IHECH:00000003"": done reading request body.
+2024-02-15T00:35:03.4879100-03:00 [DBG] JSON input formatter succeeded, deserializing to type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'
+2024-02-15T00:35:03.4925727-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:35:03.4995303-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:35:03.5060027-03:00 [DBG] Attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:35:03.5338277-03:00 [DBG] Done attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:35:13.3477875-03:00 [DBG] Entity Framework Core "7.0.14" initialized '"PEDAGIOPAYControladorContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"7.0.14"' with options: "None"
+2024-02-15T00:35:13.4830625-03:00 [DBG] Compiling query expression: "
+"'"DbSet<Debito>()
+    .FirstOrDefault(x => x.Placa == __placa_0)"'
+2024-02-15T00:35:14.2619808-03:00 [DBG] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<Debito>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Debito.IdDebito (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Debito.Categoria (string) MaxLength(20) Ansi, 1], [Property: Debito.CdStatus (bool?) Required ValueGenerated.OnAdd, 2], [Property: Debito.Concessao (string) MaxLength(100) Ansi, 3], [Property: Debito.DhPassagem (DateTime?), 4], [Property: Debito.DhTimestamp (DateTime) Required ValueGenerated.OnAdd, 5], [Property: Debito.Eixos (int?) ValueGenerated.OnAdd, 6], [Property: Debito.IdOsa (short?), 7], [Property: Debito.IdPassagem (long) Required, 8], [Property: Debito.PagoEm (DateTime?), 9], [Property: Debito.Placa (string) MaxLength(7) Ansi, 10], [Property: Debito.Tag (string) MaxLength(20) Ansi, 11], [Property: Debito.TokenUsuario (string) ValueGenerated.OnAdd MaxLength(500) Ansi, 12], [Property: Debito.Valor (decimal?), 13], [Property: Debito.Vencimento (string) ValueGenerated.OnAdd, 14] }
+        SELECT TOP(1) d.ID_DEBITO, d.CATEGORIA, d.CD_STATUS, d.CONCESSAO, d.DH_PASSAGEM, d.DH_TIMESTAMP, d.EIXOS, d.ID_OSA, d.ID_PASSAGEM, d.PAGO_EM, d.PLACA, d.TAG, d.TOKEN_USUARIO, d.VALOR, d.VENCIMENTO
+        FROM DEBITO AS d
+        WHERE d.PLACA == @__placa_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Debito>, 
+    PedagioPayApiControlador.Models.PEDAGIOPAYControladorContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()"'
+2024-02-15T00:35:14.3954600-03:00 [DBG] Creating DbCommand for '"ExecuteReader"'.
+2024-02-15T00:35:14.4065295-03:00 [DBG] Creating DbConnection.
+2024-02-15T00:35:14.4696526-03:00 [DBG] Created DbConnection. (58ms).
+2024-02-15T00:35:14.4918222-03:00 [DBG] Created DbCommand for '"ExecuteReader"' (91ms).
+2024-02-15T00:35:14.5334623-03:00 [DBG] Initialized DbCommand for '"ExecuteReader"' (140ms).
+2024-02-15T00:35:14.5469867-03:00 [DBG] Opening connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:36:02.7042117-03:00 [ERR] An error occurred using the connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:36:02.7656204-03:00 [ERR] An exception occurred while iterating over the results of a query for context type '"PedagioPayApiControlador.Models.PEDAGIOPAYControladorContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): O caminho da rede não foi encontrado.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20"
+2024-02-15T00:38:00.3858014-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T00:38:00.6785720-03:00 [DBG] Hosting starting
+2024-02-15T00:38:00.9820891-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T00:38:00.9849850-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T00:38:00.9908957-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T00:38:00.9939059-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T00:38:00.9999202-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T00:38:01.0055319-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T00:38:01.0118704-03:00 [INF] Hosting environment: "Development"
+2024-02-15T00:38:01.0168048-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T00:38:01.0216245-03:00 [DBG] Hosting started
+2024-02-15T00:38:01.1564240-03:00 [DBG] Connection id ""0HN1DQU190H7L"" accepted.
+2024-02-15T00:38:01.1767374-03:00 [DBG] Connection id ""0HN1DQU190H7L"" started.
+2024-02-15T00:38:01.1875874-03:00 [DBG] Connection id ""0HN1DQU190H7L"" received FIN.
+2024-02-15T00:38:01.2259612-03:00 [DBG] Connection id ""0HN1DQU190H7L"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:38:01.2758536-03:00 [DBG] Connection id ""0HN1DQU190H7L"" disconnecting.
+2024-02-15T00:38:01.2824336-03:00 [DBG] Connection id ""0HN1DQU190H7L"" stopped.
+2024-02-15T00:38:01.4813377-03:00 [DBG] Connection id ""0HN1DQU190H7M"" accepted.
+2024-02-15T00:38:01.8656676-03:00 [DBG] Connection id ""0HN1DQU190H7M"" started.
+2024-02-15T00:38:01.6842858-03:00 [DBG] Connection id ""0HN1DQU190H7N"" accepted.
+2024-02-15T00:38:02.0591866-03:00 [DBG] Connection id ""0HN1DQU190H7N"" started.
+2024-02-15T00:38:02.1409187-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T00:38:02.8738987-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T00:38:02.9555243-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T00:38:02.9871406-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:38:03.9208705-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T00:38:04.0020838-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T00:38:04.0432633-03:00 [DBG] Connection id ""0HN1DQU190H7O"" accepted.
+2024-02-15T00:38:04.0632597-03:00 [DBG] Connection id ""0HN1DQU190H7M"" completed keep alive response.
+2024-02-15T00:38:04.0553395-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T00:38:04.0709714-03:00 [DBG] Connection id ""0HN1DQU190H7O"" started.
+2024-02-15T00:38:04.0801785-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 1960.3493ms
+2024-02-15T00:38:04.0902800-03:00 [DBG] Connection id ""0HN1DQU190H7N"" completed keep alive response.
+2024-02-15T00:38:04.0871877-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T00:38:04.1000736-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 44.6627ms
+2024-02-15T00:38:04.5541371-03:00 [DBG] Connection id ""0HN1DQU190H7O"" completed keep alive response.
+2024-02-15T00:38:04.6019267-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 514.6256ms
+2024-02-15T00:38:04.6746481-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T00:38:04.6839668-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T00:38:04.6909084-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:38:05.1944388-03:00 [DBG] Connection id ""0HN1DQU190H7O"" completed keep alive response.
+2024-02-15T00:38:05.2035915-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 528.9242ms
+2024-02-15T00:38:08.7996678-03:00 [DBG] Connection id ""0HN1DQU190H7P"" accepted.
+2024-02-15T00:38:08.8111663-03:00 [DBG] Connection id ""0HN1DQU190H7P"" started.
+2024-02-15T00:38:08.8168163-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - -
+2024-02-15T00:38:08.8368172-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:38:08.8730588-03:00 [DBG] Request matched endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:38:08.8808024-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:38:08.8849810-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:38:08.8907156-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:38:08.8956792-03:00 [DBG] The request is a preflight request.
+2024-02-15T00:38:08.9002740-03:00 [DBG] Connection id ""0HN1DQU190H7P"" completed keep alive response.
+2024-02-15T00:38:08.9043729-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - - - 204 - - 87.4684ms
+2024-02-15T00:38:08.9086538-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/CartaoUsuario/AdicionarNovoCartao application/json 138
+2024-02-15T00:38:08.9156516-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:38:08.9600373-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/AdicionarNovoCartao"' is valid for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:38:08.9869665-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:38:08.9954783-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:38:08.9989792-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:38:09.0027689-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:38:09.0134466-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-15T00:38:09.0215705-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:38:09.0830242-03:00 [INF] Route matched with "{action = \"Cadastro\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Cadastro(PedagioPayApiControlador.Data.Dtos.TransacaoDto)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-15T00:38:09.1010795-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-15T00:38:09.1080494-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-15T00:38:09.1159788-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-15T00:38:09.1228722-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-15T00:38:09.1313458-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-15T00:38:09.1434608-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:38:09.4813831-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-15T00:38:09.5282963-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:38:09.5408461-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:38:09.5515643-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' using the name '""' in request data ...
+2024-02-15T00:38:09.5604938-03:00 [DBG] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2024-02-15T00:38:09.6119282-03:00 [DBG] Connection id ""0HN1DQU190H7P"", Request id ""0HN1DQU190H7P:00000003"": started reading request body.
+2024-02-15T00:38:09.6205428-03:00 [DBG] Connection id ""0HN1DQU190H7P"", Request id ""0HN1DQU190H7P:00000003"": done reading request body.
+2024-02-15T00:38:09.7162928-03:00 [DBG] JSON input formatter succeeded, deserializing to type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'
+2024-02-15T00:38:09.7225865-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:38:09.7274957-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:38:09.7354321-03:00 [DBG] Attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:38:09.7603226-03:00 [DBG] Done attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:38:19.8414191-03:00 [DBG] Entity Framework Core "7.0.14" initialized '"PEDAGIOPAYControladorContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"7.0.14"' with options: "None"
+2024-02-15T00:38:20.0218403-03:00 [DBG] Compiling query expression: "
+"'"DbSet<Debito>()
+    .FirstOrDefault(x => x.Placa == __placa_0)"'
+2024-02-15T00:38:20.8289873-03:00 [DBG] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<Debito>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Debito.IdDebito (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Debito.Categoria (string) MaxLength(20) Ansi, 1], [Property: Debito.CdStatus (bool?) Required ValueGenerated.OnAdd, 2], [Property: Debito.Concessao (string) MaxLength(100) Ansi, 3], [Property: Debito.DhPassagem (DateTime?), 4], [Property: Debito.DhTimestamp (DateTime) Required ValueGenerated.OnAdd, 5], [Property: Debito.Eixos (int?) ValueGenerated.OnAdd, 6], [Property: Debito.IdOsa (short?), 7], [Property: Debito.IdPassagem (long) Required, 8], [Property: Debito.PagoEm (DateTime?), 9], [Property: Debito.Placa (string) MaxLength(7) Ansi, 10], [Property: Debito.Tag (string) MaxLength(20) Ansi, 11], [Property: Debito.TokenUsuario (string) ValueGenerated.OnAdd MaxLength(500) Ansi, 12], [Property: Debito.Valor (decimal?), 13], [Property: Debito.Vencimento (string) ValueGenerated.OnAdd, 14] }
+        SELECT TOP(1) d.ID_DEBITO, d.CATEGORIA, d.CD_STATUS, d.CONCESSAO, d.DH_PASSAGEM, d.DH_TIMESTAMP, d.EIXOS, d.ID_OSA, d.ID_PASSAGEM, d.PAGO_EM, d.PLACA, d.TAG, d.TOKEN_USUARIO, d.VALOR, d.VENCIMENTO
+        FROM DEBITO AS d
+        WHERE d.PLACA == @__placa_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Debito>, 
+    PedagioPayApiControlador.Models.PEDAGIOPAYControladorContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()"'
+2024-02-15T00:38:20.9907996-03:00 [DBG] Creating DbCommand for '"ExecuteReader"'.
+2024-02-15T00:38:21.0015985-03:00 [DBG] Creating DbConnection.
+2024-02-15T00:38:21.0831869-03:00 [DBG] Created DbConnection. (69ms).
+2024-02-15T00:38:21.1096043-03:00 [DBG] Created DbCommand for '"ExecuteReader"' (111ms).
+2024-02-15T00:38:21.1558273-03:00 [DBG] Initialized DbCommand for '"ExecuteReader"' (167ms).
+2024-02-15T00:38:21.1733750-03:00 [DBG] Opening connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:39:09.3925155-03:00 [ERR] An error occurred using the connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:39:09.4481185-03:00 [ERR] An exception occurred while iterating over the results of a query for context type '"PedagioPayApiControlador.Models.PEDAGIOPAYControladorContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): O caminho da rede não foi encontrado.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20"
+2024-02-15T00:39:54.9516668-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T00:39:55.1363944-03:00 [DBG] Hosting starting
+2024-02-15T00:39:55.3632757-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T00:39:55.3670311-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T00:39:55.3709291-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T00:39:55.3777529-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T00:39:55.3844303-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T00:39:55.3927010-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T00:39:55.3988511-03:00 [INF] Hosting environment: "Development"
+2024-02-15T00:39:55.4030839-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T00:39:55.4117654-03:00 [DBG] Hosting started
+2024-02-15T00:39:55.8341963-03:00 [DBG] Connection id ""0HN1DQV3EKO8G"" accepted.
+2024-02-15T00:39:55.8413855-03:00 [DBG] Connection id ""0HN1DQV3EKO8H"" received FIN.
+2024-02-15T00:39:55.8413855-03:00 [DBG] Connection id ""0HN1DQV3EKO8G"" received FIN.
+2024-02-15T00:39:55.8477940-03:00 [DBG] Connection id ""0HN1DQV3EKO8G"" started.
+2024-02-15T00:39:55.8343054-03:00 [DBG] Connection id ""0HN1DQV3EKO8H"" accepted.
+2024-02-15T00:39:55.8706824-03:00 [DBG] Connection id ""0HN1DQV3EKO8H"" started.
+2024-02-15T00:39:55.8811621-03:00 [DBG] Connection id ""0HN1DQV3EKO8H"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:39:55.8811650-03:00 [DBG] Connection id ""0HN1DQV3EKO8G"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T00:39:55.8926159-03:00 [DBG] Connection id ""0HN1DQV3EKO8H"" disconnecting.
+2024-02-15T00:39:55.8993921-03:00 [DBG] Connection id ""0HN1DQV3EKO8G"" disconnecting.
+2024-02-15T00:39:55.9259467-03:00 [DBG] Connection id ""0HN1DQV3EKO8G"" stopped.
+2024-02-15T00:39:55.9259467-03:00 [DBG] Connection id ""0HN1DQV3EKO8H"" stopped.
+2024-02-15T00:39:56.8899696-03:00 [DBG] Connection id ""0HN1DQV3EKO8I"" accepted.
+2024-02-15T00:39:57.0138489-03:00 [DBG] Connection id ""0HN1DQV3EKO8J"" accepted.
+2024-02-15T00:39:56.9132943-03:00 [DBG] Connection id ""0HN1DQV3EKO8I"" started.
+2024-02-15T00:39:57.0952100-03:00 [DBG] Connection id ""0HN1DQV3EKO8J"" started.
+2024-02-15T00:39:57.2515243-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T00:39:57.8017629-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T00:39:57.9024646-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T00:39:57.9107851-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:39:58.5710577-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T00:39:58.6599021-03:00 [DBG] Connection id ""0HN1DQV3EKO8K"" accepted.
+2024-02-15T00:39:58.6428583-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T00:39:58.6654480-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T00:39:58.7827656-03:00 [DBG] Connection id ""0HN1DQV3EKO8I"" completed keep alive response.
+2024-02-15T00:39:58.7923069-03:00 [DBG] Connection id ""0HN1DQV3EKO8K"" started.
+2024-02-15T00:39:58.8039976-03:00 [DBG] Connection id ""0HN1DQV3EKO8J"" completed keep alive response.
+2024-02-15T00:39:58.8316356-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 166.0129ms
+2024-02-15T00:39:58.8238374-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T00:39:58.8230399-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 1586.6321ms
+2024-02-15T00:39:59.1791344-03:00 [DBG] Connection id ""0HN1DQV3EKO8K"" completed keep alive response.
+2024-02-15T00:39:59.1981554-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 374.3421ms
+2024-02-15T00:39:59.3377491-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T00:39:59.3524070-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T00:39:59.3980200-03:00 [DBG] Request did not match any endpoints
+2024-02-15T00:39:59.8253361-03:00 [DBG] Connection id ""0HN1DQV3EKO8K"" completed keep alive response.
+2024-02-15T00:39:59.8434812-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 505.5570ms
+2024-02-15T00:40:03.6124013-03:00 [DBG] Connection id ""0HN1DQV3EKO8L"" accepted.
+2024-02-15T00:40:03.6277696-03:00 [DBG] Connection id ""0HN1DQV3EKO8L"" started.
+2024-02-15T00:40:03.6611056-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - -
+2024-02-15T00:40:03.7044841-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:40:03.7187366-03:00 [DBG] Request matched endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:40:03.7266784-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:40:03.7367120-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:40:03.7447453-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:40:03.7552764-03:00 [DBG] The request is a preflight request.
+2024-02-15T00:40:03.7607669-03:00 [DBG] Connection id ""0HN1DQV3EKO8L"" completed keep alive response.
+2024-02-15T00:40:03.7733448-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - - - 204 - - 112.0765ms
+2024-02-15T00:40:03.7847321-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/CartaoUsuario/AdicionarNovoCartao application/json 138
+2024-02-15T00:40:03.7957168-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:40:03.8127726-03:00 [DBG] Endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"' with route pattern '"CartaoUsuario/AdicionarNovoCartao"' is valid for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:40:03.8250739-03:00 [DBG] Request matched endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:40:03.8334257-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:40:03.8439989-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T00:40:03.8920095-03:00 [INF] CORS policy execution successful.
+2024-02-15T00:40:03.9071446-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-15T00:40:03.9647219-03:00 [INF] Executing endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:40:04.0590592-03:00 [INF] Route matched with "{action = \"Cadastro\", controller = \"CartaoUsuario\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Cadastro(PedagioPayApiControlador.Data.Dtos.TransacaoDto)" on controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador").
+2024-02-15T00:40:04.0933210-03:00 [DBG] Execution plan of "authorization" filters (in the following order): ["None"]
+2024-02-15T00:40:04.1042508-03:00 [DBG] Execution plan of "resource" filters (in the following order): ["None"]
+2024-02-15T00:40:04.1211508-03:00 [DBG] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-15T00:40:04.1576514-03:00 [DBG] Execution plan of "exception" filters (in the following order): ["None"]
+2024-02-15T00:40:04.1856345-03:00 [DBG] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-15T00:40:04.1972592-03:00 [DBG] Executing controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:40:04.5717175-03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-15T00:40:04.6445182-03:00 [DBG] Executed controller factory for controller "PedagioPayApiControlador.Controllers.CartaoUsuarioController" ("PedagioPayApiControlador")
+2024-02-15T00:40:04.6630401-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:40:04.6833386-03:00 [DBG] Attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' using the name '""' in request data ...
+2024-02-15T00:40:04.6957080-03:00 [DBG] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2024-02-15T00:40:04.7576058-03:00 [DBG] Connection id ""0HN1DQV3EKO8L"", Request id ""0HN1DQV3EKO8L:00000003"": started reading request body.
+2024-02-15T00:40:04.7653471-03:00 [DBG] Connection id ""0HN1DQV3EKO8L"", Request id ""0HN1DQV3EKO8L:00000003"": done reading request body.
+2024-02-15T00:40:04.8378344-03:00 [DBG] JSON input formatter succeeded, deserializing to type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'
+2024-02-15T00:40:04.8467412-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:40:04.8551700-03:00 [DBG] Done attempting to bind parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:40:04.8664386-03:00 [DBG] Attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"' ...
+2024-02-15T00:40:04.8897801-03:00 [DBG] Done attempting to validate the bound parameter '"cartaoUsuario"' of type '"PedagioPayApiControlador.Data.Dtos.TransacaoDto"'.
+2024-02-15T00:40:13.2736255-03:00 [DBG] Entity Framework Core "7.0.14" initialized '"PEDAGIOPAYControladorContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"7.0.14"' with options: "None"
+2024-02-15T00:40:13.4450239-03:00 [DBG] Compiling query expression: "
+"'"DbSet<Debito>()
+    .FirstOrDefault(x => x.Placa == __placa_0)"'
+2024-02-15T00:40:14.9422705-03:00 [DBG] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<Debito>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Debito.IdDebito (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Debito.Categoria (string) MaxLength(20) Ansi, 1], [Property: Debito.CdStatus (bool?) Required ValueGenerated.OnAdd, 2], [Property: Debito.Concessao (string) MaxLength(100) Ansi, 3], [Property: Debito.DhPassagem (DateTime?), 4], [Property: Debito.DhTimestamp (DateTime) Required ValueGenerated.OnAdd, 5], [Property: Debito.Eixos (int?) ValueGenerated.OnAdd, 6], [Property: Debito.IdOsa (short?), 7], [Property: Debito.IdPassagem (long) Required, 8], [Property: Debito.PagoEm (DateTime?), 9], [Property: Debito.Placa (string) MaxLength(7) Ansi, 10], [Property: Debito.Tag (string) MaxLength(20) Ansi, 11], [Property: Debito.TokenUsuario (string) ValueGenerated.OnAdd MaxLength(500) Ansi, 12], [Property: Debito.Valor (decimal?), 13], [Property: Debito.Vencimento (string) ValueGenerated.OnAdd, 14] }
+        SELECT TOP(1) d.ID_DEBITO, d.CATEGORIA, d.CD_STATUS, d.CONCESSAO, d.DH_PASSAGEM, d.DH_TIMESTAMP, d.EIXOS, d.ID_OSA, d.ID_PASSAGEM, d.PAGO_EM, d.PLACA, d.TAG, d.TOKEN_USUARIO, d.VALOR, d.VENCIMENTO
+        FROM DEBITO AS d
+        WHERE d.PLACA == @__placa_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Debito>, 
+    PedagioPayApiControlador.Models.PEDAGIOPAYControladorContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()"'
+2024-02-15T00:40:15.4360062-03:00 [DBG] Creating DbCommand for '"ExecuteReader"'.
+2024-02-15T00:40:15.4528663-03:00 [DBG] Creating DbConnection.
+2024-02-15T00:40:15.5630057-03:00 [DBG] Created DbConnection. (108ms).
+2024-02-15T00:40:15.5947393-03:00 [DBG] Created DbCommand for '"ExecuteReader"' (153ms).
+2024-02-15T00:40:15.6540771-03:00 [DBG] Initialized DbCommand for '"ExecuteReader"' (222ms).
+2024-02-15T00:40:15.6736278-03:00 [DBG] Opening connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:40:18.2222188-03:00 [DBG] Opened connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:40:18.4279086-03:00 [DBG] Executing DbCommand [Parameters=["@__placa_0='?' (Size = 7) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [d].[ID_DEBITO], [d].[CATEGORIA], [d].[CD_STATUS], [d].[CONCESSAO], [d].[DH_PASSAGEM], [d].[DH_TIMESTAMP], [d].[EIXOS], [d].[ID_OSA], [d].[ID_PASSAGEM], [d].[PAGO_EM], [d].[PLACA], [d].[TAG], [d].[TOKEN_USUARIO], [d].[VALOR], [d].[VENCIMENTO]
+FROM [DEBITO] AS [d]
+WHERE [d].[PLACA] = @__placa_0"
+2024-02-15T00:40:19.0735711-03:00 [INF] Executed DbCommand ("818"ms) [Parameters=["@__placa_0='?' (Size = 7) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [d].[ID_DEBITO], [d].[CATEGORIA], [d].[CD_STATUS], [d].[CONCESSAO], [d].[DH_PASSAGEM], [d].[DH_TIMESTAMP], [d].[EIXOS], [d].[ID_OSA], [d].[ID_PASSAGEM], [d].[PAGO_EM], [d].[PLACA], [d].[TAG], [d].[TOKEN_USUARIO], [d].[VALOR], [d].[VENCIMENTO]
+FROM [DEBITO] AS [d]
+WHERE [d].[PLACA] = @__placa_0"
+2024-02-15T00:40:19.5072970-03:00 [DBG] Context '"PEDAGIOPAYControladorContext"' started tracking '"Debito"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-15T00:40:19.6754222-03:00 [DBG] Closing data reader to '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:40:19.7123042-03:00 [DBG] A data reader for '"PEDAGIO_PAY"' on server '"10.250.0.4"' is being disposed after spending 496ms reading results.
+2024-02-15T00:40:19.8613314-03:00 [DBG] Closing connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:40:19.9056216-03:00 [DBG] Closed connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"' (45ms).
+2024-02-15T00:40:26.4386107-03:00 [DBG] SaveChanges starting for '"PEDAGIOPAYControladorContext"'.
+2024-02-15T00:40:26.4771507-03:00 [DBG] DetectChanges starting for '"PEDAGIOPAYControladorContext"'.
+2024-02-15T00:40:26.6142960-03:00 [DBG] The unchanged property '"Debito"."PagoEm"' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-02-15T00:40:26.6383580-03:00 [DBG] An entity of type '"Debito"' tracked by '"PEDAGIOPAYControladorContext"' changed state from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-15T00:40:26.6672738-03:00 [DBG] DetectChanges completed for '"PEDAGIOPAYControladorContext"'.
+2024-02-15T00:40:26.8565920-03:00 [DBG] Opening connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:40:26.8835345-03:00 [DBG] Opened connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:40:26.9082512-03:00 [DBG] Creating DbCommand for '"ExecuteReader"'.
+2024-02-15T00:40:26.9174180-03:00 [DBG] Created DbCommand for '"ExecuteReader"' (8ms).
+2024-02-15T00:40:26.9268875-03:00 [DBG] Initialized DbCommand for '"ExecuteReader"' (18ms).
+2024-02-15T00:40:26.9411830-03:00 [DBG] Executing DbCommand [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DEBITO] SET [PAGO_EM] = @p0
+OUTPUT 1
+WHERE [ID_DEBITO] = @p1;"
+2024-02-15T00:40:27.1084954-03:00 [INF] Executed DbCommand ("170"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DEBITO] SET [PAGO_EM] = @p0
+OUTPUT 1
+WHERE [ID_DEBITO] = @p1;"
+2024-02-15T00:40:27.1290434-03:00 [DBG] Closing data reader to '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:40:27.1380619-03:00 [DBG] A data reader for '"PEDAGIO_PAY"' on server '"10.250.0.4"' is being disposed after spending 14ms reading results.
+2024-02-15T00:40:27.1479238-03:00 [DBG] Closing connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:40:27.1591591-03:00 [DBG] Closed connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"' (11ms).
+2024-02-15T00:40:27.1935038-03:00 [DBG] An entity of type '"Debito"' tracked by '"PEDAGIOPAYControladorContext"' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-15T00:40:27.2110087-03:00 [DBG] SaveChanges completed for '"PEDAGIOPAYControladorContext"' with 1 entities written to the database.
+2024-02-15T00:40:39.3705937-03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-02-15T00:40:39.3913157-03:00 [DBG] No information found on request to perform content negotiation.
+2024-02-15T00:40:39.4007248-03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-02-15T00:40:39.4104272-03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-02-15T00:40:39.4180805-03:00 [DBG] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2024-02-15T00:40:39.4342140-03:00 [INF] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`4[[Microsoft.AspNetCore.Mvc.StatusCodeResult, Microsoft.AspNetCore.Mvc.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2024-02-15T00:40:39.4887967-03:00 [INF] Executed action "PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)" in 35281.561ms
+2024-02-15T00:40:39.4979596-03:00 [INF] Executed endpoint '"PedagioPayApiControlador.Controllers.CartaoUsuarioController.Cadastro (PedagioPayApiControlador)"'
+2024-02-15T00:40:39.5047310-03:00 [DBG] Connection id ""0HN1DQV3EKO8L"" completed keep alive response.
+2024-02-15T00:40:39.5231650-03:00 [DBG] '"PEDAGIOPAYControladorContext"' disposed.
+2024-02-15T00:40:39.5564580-03:00 [DBG] Disposing connection to database '"PEDAGIO_PAY"' on server '"10.250.0.4"'.
+2024-02-15T00:40:39.5838761-03:00 [DBG] Disposed connection to database '""' on server '""' (14ms).
+2024-02-15T00:40:39.6261896-03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7008/CartaoUsuario/AdicionarNovoCartao application/json 138 - 200 - application/json;+charset=utf-8 35841.5435ms
+2024-02-15T00:42:57.5483941-03:00 [DBG] Connection id ""0HN1DQV3EKO8M"" accepted.
+2024-02-15T00:42:57.6008155-03:00 [DBG] Connection id ""0HN1DQV3EKO8N"" accepted.
+2024-02-15T00:42:57.6746935-03:00 [DBG] Connection id ""0HN1DQV3EKO8M"" started.
+2024-02-15T00:42:57.6894703-03:00 [DBG] Connection id ""0HN1DQV3EKO8N"" started.
+2024-02-15T00:42:57.7087575-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - -
+2024-02-15T00:42:57.7392665-03:00 [DBG] 1 candidate(s) found for the request path '"/CartaoUsuario/AdicionarNovoCartao"'
+2024-02-15T00:42:57.7453384-03:00 [DBG] Request matched endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:42:57.7498252-03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-02-15T00:42:57.7545931-03:00 [INF] Executing endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:42:57.7595704-03:00 [INF] Executed endpoint '"405 HTTP Method Not Supported"'
+2024-02-15T00:42:57.7638907-03:00 [DBG] Connection id ""0HN1DQV3EKO8N"" completed keep alive response.
+2024-02-15T00:42:57.7747073-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/CartaoUsuario/AdicionarNovoCartao - - - 405 0 - 65.8396ms
+2024-02-15T10:13:30.3527526-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T10:13:30.5026482-03:00 [DBG] Hosting starting
+2024-02-15T10:13:30.8713260-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T10:13:30.8732473-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T10:13:30.8753801-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T10:13:30.8778663-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T10:13:30.8799090-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T10:13:30.8823866-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T10:13:30.8850710-03:00 [INF] Hosting environment: "Development"
+2024-02-15T10:13:30.8872914-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T10:13:30.8894421-03:00 [DBG] Hosting started
+2024-02-15T10:13:31.0931319-03:00 [DBG] Connection id ""0HN1E4VK05RMR"" accepted.
+2024-02-15T10:13:31.0961003-03:00 [DBG] Connection id ""0HN1E4VK05RMR"" received FIN.
+2024-02-15T10:13:31.0984045-03:00 [DBG] Connection id ""0HN1E4VK05RMR"" started.
+2024-02-15T10:13:31.1134353-03:00 [DBG] Connection id ""0HN1E4VK05RMR"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T10:13:31.1183444-03:00 [DBG] Connection id ""0HN1E4VK05RMR"" disconnecting.
+2024-02-15T10:13:31.1277632-03:00 [DBG] Connection id ""0HN1E4VK05RMR"" stopped.
+2024-02-15T10:13:33.4172039-03:00 [DBG] Connection id ""0HN1E4VK05RMS"" accepted.
+2024-02-15T10:13:33.4318066-03:00 [DBG] Connection id ""0HN1E4VK05RMS"" started.
+2024-02-15T10:13:33.4825962-03:00 [DBG] Connection id ""0HN1E4VK05RMT"" accepted.
+2024-02-15T10:13:33.5013402-03:00 [DBG] Connection id ""0HN1E4VK05RMT"" started.
+2024-02-15T10:13:33.5217387-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger - -
+2024-02-15T10:13:33.8732312-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T10:13:33.9022534-03:00 [DBG] No candidates found for the request path '"/swagger"'
+2024-02-15T10:13:33.9048960-03:00 [DBG] Request did not match any endpoints
+2024-02-15T10:13:33.9420896-03:00 [DBG] Connection id ""0HN1E4VK05RMS"" completed keep alive response.
+2024-02-15T10:13:33.9484948-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger - - - 301 0 - 437.1499ms
+2024-02-15T10:13:33.9532423-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T10:13:33.9586103-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T10:13:33.9619064-03:00 [DBG] Request did not match any endpoints
+2024-02-15T10:13:34.2019161-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T10:13:34.2636524-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T10:13:34.2670972-03:00 [DBG] Connection id ""0HN1E4VK05RMS"" completed keep alive response.
+2024-02-15T10:13:34.2821964-03:00 [DBG] Connection id ""0HN1E4VK05RMU"" accepted.
+2024-02-15T10:13:34.2883381-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui-bundle.js - -
+2024-02-15T10:13:34.2745577-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 321.2246ms
+2024-02-15T10:13:34.2924755-03:00 [DBG] Connection id ""0HN1E4VK05RMU"" started.
+2024-02-15T10:13:34.2957401-03:00 [DBG] No candidates found for the request path '"/swagger/swagger-ui-bundle.js"'
+2024-02-15T10:13:34.2937257-03:00 [DBG] Connection id ""0HN1E4VK05RMV"" accepted.
+2024-02-15T10:13:34.2983797-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui.css - -
+2024-02-15T10:13:34.3064190-03:00 [DBG] Connection id ""0HN1E4VK05RMV"" started.
+2024-02-15T10:13:34.3037281-03:00 [DBG] Request did not match any endpoints
+2024-02-15T10:13:34.3008432-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui-standalone-preset.js - -
+2024-02-15T10:13:34.3067091-03:00 [DBG] Connection id ""0HN1E4VK05RN0"" accepted.
+2024-02-15T10:13:34.3085231-03:00 [DBG] No candidates found for the request path '"/swagger/swagger-ui.css"'
+2024-02-15T10:13:34.3200327-03:00 [DBG] No candidates found for the request path '"/swagger/swagger-ui-standalone-preset.js"'
+2024-02-15T10:13:34.3130541-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T10:13:34.3219044-03:00 [DBG] Connection id ""0HN1E4VK05RN0"" started.
+2024-02-15T10:13:34.3245640-03:00 [DBG] Request did not match any endpoints
+2024-02-15T10:13:34.3371713-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T10:13:34.3390731-03:00 [DBG] Connection id ""0HN1E4VK05RMV"" completed keep alive response.
+2024-02-15T10:13:34.3304441-03:00 [DBG] Request did not match any endpoints
+2024-02-15T10:13:34.3499128-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 36.4783ms
+2024-02-15T10:13:34.3953296-03:00 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2024-02-15T10:13:34.3953425-03:00 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2024-02-15T10:13:34.4300433-03:00 [DBG] Connection id ""0HN1E4VK05RMS"" completed keep alive response.
+2024-02-15T10:13:34.4356210-03:00 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2024-02-15T10:13:34.4453683-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui.css - - - 200 144929 text/css 146.9664ms
+2024-02-15T10:13:34.4500325-03:00 [DBG] Connection id ""0HN1E4VK05RMT"" completed keep alive response.
+2024-02-15T10:13:34.4364344-03:00 [DBG] Connection id ""0HN1E4VK05RMU"" completed keep alive response.
+2024-02-15T10:13:34.4561881-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 167.8406ms
+2024-02-15T10:13:34.4588249-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 157.9355ms
+2024-02-15T10:13:34.5825108-03:00 [DBG] Connection id ""0HN1E4VK05RN0"" completed keep alive response.
+2024-02-15T10:13:34.5880956-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 250.8155ms
+2024-02-15T10:13:34.7090995-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T10:13:34.7135031-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T10:13:34.7163659-03:00 [DBG] Request did not match any endpoints
+2024-02-15T10:13:34.9413302-03:00 [DBG] Connection id ""0HN1E4VK05RN0"" completed keep alive response.
+2024-02-15T10:13:34.9504355-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 241.3408ms
+2024-02-15T10:16:30.3656661-03:00 [DBG] Connection id ""0HN1E4VK05RMS"" received FIN.
+2024-02-15T10:16:30.3786488-03:00 [DBG] Connection id ""0HN1E4VK05RN0"" received FIN.
+2024-02-15T10:16:30.3825845-03:00 [DBG] Connection id ""0HN1E4VK05RMU"" received FIN.
+2024-02-15T10:16:30.3703435-03:00 [DBG] Connection id ""0HN1E4VK05RMV"" received FIN.
+2024-02-15T10:16:30.3868854-03:00 [DBG] Connection id ""0HN1E4VK05RMS"" disconnecting.
+2024-02-15T10:16:30.4887983-03:00 [DBG] Connection id ""0HN1E4VK05RMS"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T10:16:30.4943088-03:00 [DBG] Connection id ""0HN1E4VK05RN0"" disconnecting.
+2024-02-15T10:16:30.4983252-03:00 [DBG] Connection id ""0HN1E4VK05RN0"" stopped.
+2024-02-15T10:16:30.5106005-03:00 [DBG] Connection id ""0HN1E4VK05RMS"" stopped.
+2024-02-15T10:16:30.5790997-03:00 [DBG] Connection id ""0HN1E4VK05RMV"" disconnecting.
+2024-02-15T10:16:30.5640713-03:00 [DBG] Connection id ""0HN1E4VK05RMU"" disconnecting.
+2024-02-15T10:16:30.6134309-03:00 [DBG] Connection id ""0HN1E4VK05RMV"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T10:16:30.6168124-03:00 [DBG] Connection id ""0HN1E4VK05RMU"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T10:16:30.6241347-03:00 [DBG] Connection id ""0HN1E4VK05RN0"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T10:16:30.6290143-03:00 [DBG] Connection id ""0HN1E4VK05RMV"" stopped.
+2024-02-15T10:16:30.6289868-03:00 [DBG] Connection id ""0HN1E4VK05RMT"" received FIN.
+2024-02-15T10:16:30.6393081-03:00 [DBG] Connection id ""0HN1E4VK05RMT"" disconnecting.
+2024-02-15T10:16:30.6359355-03:00 [DBG] Connection id ""0HN1E4VK05RMU"" stopped.
+2024-02-15T10:16:30.6441613-03:00 [DBG] Connection id ""0HN1E4VK05RMT"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T10:16:30.6506017-03:00 [DBG] Connection id ""0HN1E4VK05RMT"" stopped.
+2024-02-15T10:58:22.5441098-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" accepted.
+2024-02-15T10:58:22.6722979-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" started.
+2024-02-15T10:58:22.7046401-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/Debitos/ConsultaDebitos - -
+2024-02-15T10:58:22.7210920-03:00 [DBG] No candidates found for the request path '"/Debitos/ConsultaDebitos"'
+2024-02-15T10:58:22.7245335-03:00 [DBG] Request did not match any endpoints
+2024-02-15T10:58:22.7304550-03:00 [DBG] "OPTIONS" requests are not supported
+2024-02-15T10:58:22.7386243-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T10:58:22.7429436-03:00 [INF] CORS policy execution successful.
+2024-02-15T10:58:22.7502711-03:00 [DBG] The request is a preflight request.
+2024-02-15T10:58:22.7558630-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" completed keep alive response.
+2024-02-15T10:58:22.7699616-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/Debitos/ConsultaDebitos - - - 204 - - 65.6813ms
+2024-02-15T10:58:22.7732825-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/Debitos/ConsultaDebitos application/json -
+2024-02-15T10:58:22.7761639-03:00 [DBG] No candidates found for the request path '"/Debitos/ConsultaDebitos"'
+2024-02-15T10:58:22.7829864-03:00 [DBG] Request did not match any endpoints
+2024-02-15T10:58:22.7909620-03:00 [DBG] The request path "" does not match the path filter
+2024-02-15T10:58:22.7963736-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T10:58:22.8046457-03:00 [INF] CORS policy execution successful.
+2024-02-15T10:58:22.8242978-03:00 [WRN] Failed to determine the https port for redirect.
+2024-02-15T10:58:22.8365212-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" completed keep alive response.
+2024-02-15T10:58:22.8426053-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/Debitos/ConsultaDebitos application/json - - 404 0 - 69.2611ms
+2024-02-15T10:58:42.6528040-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - -
+2024-02-15T10:58:42.6556517-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T10:58:42.6605967-03:00 [DBG] Request did not match any endpoints
+2024-02-15T10:58:42.6639630-03:00 [DBG] "OPTIONS" requests are not supported
+2024-02-15T10:58:42.6686168-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T10:58:42.6717675-03:00 [INF] CORS policy execution successful.
+2024-02-15T10:58:42.6747136-03:00 [DBG] The request is a preflight request.
+2024-02-15T10:58:42.6782901-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" completed keep alive response.
+2024-02-15T10:58:42.6868466-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - - - 204 - - 34.0262ms
+2024-02-15T10:58:42.6913536-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71
+2024-02-15T10:58:42.6970440-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T10:58:42.7008524-03:00 [DBG] Request did not match any endpoints
+2024-02-15T10:58:42.7036170-03:00 [DBG] "POST" requests are not supported
+2024-02-15T10:58:42.7070825-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T10:58:42.7124409-03:00 [INF] CORS policy execution successful.
+2024-02-15T10:58:42.7157449-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" completed keep alive response.
+2024-02-15T10:58:42.7188834-03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71 - 404 0 - 27.4742ms
+2024-02-15T10:58:42.7236394-03:00 [DBG] Connection id ""0HN1E4VK05RN1"", Request id ""0HN1E4VK05RN1:00000005"": started reading request body.
+2024-02-15T10:58:42.7300025-03:00 [DBG] Connection id ""0HN1E4VK05RN1"", Request id ""0HN1E4VK05RN1:00000005"": done reading request body.
+2024-02-15T10:59:14.0351322-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - -
+2024-02-15T10:59:14.0433694-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T10:59:14.0471367-03:00 [DBG] Request did not match any endpoints
+2024-02-15T10:59:14.0503531-03:00 [DBG] "OPTIONS" requests are not supported
+2024-02-15T10:59:14.0534252-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T10:59:14.0592901-03:00 [INF] CORS policy execution successful.
+2024-02-15T10:59:14.0643973-03:00 [DBG] The request is a preflight request.
+2024-02-15T10:59:14.0667425-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" completed keep alive response.
+2024-02-15T10:59:14.0753581-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - - - 204 - - 43.3129ms
+2024-02-15T10:59:14.0784802-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71
+2024-02-15T10:59:14.0957246-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T10:59:14.0984375-03:00 [DBG] Request did not match any endpoints
+2024-02-15T10:59:14.1013934-03:00 [DBG] "POST" requests are not supported
+2024-02-15T10:59:14.1036800-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T10:59:14.1106866-03:00 [INF] CORS policy execution successful.
+2024-02-15T10:59:14.1132253-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" completed keep alive response.
+2024-02-15T10:59:14.1166074-03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71 - 404 0 - 38.0730ms
+2024-02-15T10:59:14.1196692-03:00 [DBG] Connection id ""0HN1E4VK05RN1"", Request id ""0HN1E4VK05RN1:00000007"": started reading request body.
+2024-02-15T10:59:14.1288956-03:00 [DBG] Connection id ""0HN1E4VK05RN1"", Request id ""0HN1E4VK05RN1:00000007"": done reading request body.
+2024-02-15T11:01:40.6853973-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - -
+2024-02-15T11:01:40.6945710-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T11:01:40.6977527-03:00 [DBG] Request did not match any endpoints
+2024-02-15T11:01:40.7001627-03:00 [DBG] "OPTIONS" requests are not supported
+2024-02-15T11:01:40.7038322-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T11:01:40.7112378-03:00 [INF] CORS policy execution successful.
+2024-02-15T11:01:40.7169464-03:00 [DBG] The request is a preflight request.
+2024-02-15T11:01:40.7281015-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" completed keep alive response.
+2024-02-15T11:01:40.7317038-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - - - 204 - - 47.0919ms
+2024-02-15T11:01:40.7452489-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71
+2024-02-15T11:01:40.7670549-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T11:01:40.7698314-03:00 [DBG] Request did not match any endpoints
+2024-02-15T11:01:40.7719230-03:00 [DBG] "POST" requests are not supported
+2024-02-15T11:01:40.7798116-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T11:01:40.7826691-03:00 [INF] CORS policy execution successful.
+2024-02-15T11:01:40.7847682-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" completed keep alive response.
+2024-02-15T11:01:40.7943419-03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71 - 404 0 - 49.1952ms
+2024-02-15T11:01:40.8045673-03:00 [DBG] Connection id ""0HN1E4VK05RN1"", Request id ""0HN1E4VK05RN1:00000009"": started reading request body.
+2024-02-15T11:01:40.8382337-03:00 [DBG] Connection id ""0HN1E4VK05RN1"", Request id ""0HN1E4VK05RN1:00000009"": done reading request body.
+2024-02-15T11:04:46.8639977-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - -
+2024-02-15T11:04:46.8676366-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T11:04:46.8744365-03:00 [DBG] Request did not match any endpoints
+2024-02-15T11:04:46.8783354-03:00 [DBG] "OPTIONS" requests are not supported
+2024-02-15T11:04:46.8810981-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T11:04:46.8842537-03:00 [INF] CORS policy execution successful.
+2024-02-15T11:04:46.8874811-03:00 [DBG] The request is a preflight request.
+2024-02-15T11:04:46.8904190-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" completed keep alive response.
+2024-02-15T11:04:46.8946104-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - - - 204 - - 31.4382ms
+2024-02-15T11:04:46.8974174-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71
+2024-02-15T11:04:46.9010204-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T11:04:46.9067230-03:00 [DBG] Request did not match any endpoints
+2024-02-15T11:04:46.9092511-03:00 [DBG] "POST" requests are not supported
+2024-02-15T11:04:46.9119625-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T11:04:46.9149209-03:00 [INF] CORS policy execution successful.
+2024-02-15T11:04:46.9173057-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" completed keep alive response.
+2024-02-15T11:04:46.9245781-03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71 - 404 0 - 27.1046ms
+2024-02-15T11:04:46.9280178-03:00 [DBG] Connection id ""0HN1E4VK05RN1"", Request id ""0HN1E4VK05RN1:0000000B"": started reading request body.
+2024-02-15T11:04:46.9318743-03:00 [DBG] Connection id ""0HN1E4VK05RN1"", Request id ""0HN1E4VK05RN1:0000000B"": done reading request body.
+2024-02-15T12:15:40.6880207-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" received FIN.
+2024-02-15T12:15:40.7116869-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T12:15:40.7294236-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" disconnecting.
+2024-02-15T12:15:40.7328161-03:00 [DBG] Connection id ""0HN1E4VK05RN1"" stopped.
+2024-02-15T12:16:12.7125237-03:00 [DBG] Connection id ""0HN1E4VK05RN2"" accepted.
+2024-02-15T12:16:12.8020444-03:00 [DBG] Connection id ""0HN1E4VK05RN2"" started.
+2024-02-15T12:16:12.8194243-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - -
+2024-02-15T12:16:12.8242857-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T12:16:12.8301838-03:00 [DBG] Request did not match any endpoints
+2024-02-15T12:16:12.8336969-03:00 [DBG] "OPTIONS" requests are not supported
+2024-02-15T12:16:12.8370157-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T12:16:12.8398199-03:00 [INF] CORS policy execution successful.
+2024-02-15T12:16:12.8424092-03:00 [DBG] The request is a preflight request.
+2024-02-15T12:16:12.8480184-03:00 [DBG] Connection id ""0HN1E4VK05RN2"" completed keep alive response.
+2024-02-15T12:16:12.8900033-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - - - 204 - - 70.8346ms
+2024-02-15T12:16:12.8924675-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71
+2024-02-15T12:16:12.8979652-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T12:16:12.9014146-03:00 [DBG] Request did not match any endpoints
+2024-02-15T12:16:12.9037664-03:00 [DBG] "POST" requests are not supported
+2024-02-15T12:16:12.9060648-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T12:16:12.9090369-03:00 [INF] CORS policy execution successful.
+2024-02-15T12:16:12.9131334-03:00 [DBG] Connection id ""0HN1E4VK05RN2"" completed keep alive response.
+2024-02-15T12:16:12.9166001-03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71 - 404 0 - 24.1351ms
+2024-02-15T12:16:12.9195047-03:00 [DBG] Connection id ""0HN1E4VK05RN2"", Request id ""0HN1E4VK05RN2:00000003"": started reading request body.
+2024-02-15T12:16:12.9228606-03:00 [DBG] Connection id ""0HN1E4VK05RN2"", Request id ""0HN1E4VK05RN2:00000003"": done reading request body.
+2024-02-15T12:20:32.7525320-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - -
+2024-02-15T12:20:32.7661806-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T12:20:32.7710983-03:00 [DBG] Request did not match any endpoints
+2024-02-15T12:20:32.7742574-03:00 [DBG] "OPTIONS" requests are not supported
+2024-02-15T12:20:32.7769845-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T12:20:32.7807707-03:00 [INF] CORS policy execution successful.
+2024-02-15T12:20:32.7871503-03:00 [DBG] The request is a preflight request.
+2024-02-15T12:20:32.7890979-03:00 [DBG] Connection id ""0HN1E4VK05RN2"" completed keep alive response.
+2024-02-15T12:20:32.7922383-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - - - 204 - - 44.7003ms
+2024-02-15T12:20:32.7949280-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71
+2024-02-15T12:20:32.7968595-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T12:20:32.8015324-03:00 [DBG] Request did not match any endpoints
+2024-02-15T12:20:32.8040883-03:00 [DBG] "POST" requests are not supported
+2024-02-15T12:20:32.8067551-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T12:20:32.8116754-03:00 [INF] CORS policy execution successful.
+2024-02-15T12:20:32.8187976-03:00 [DBG] Connection id ""0HN1E4VK05RN2"" completed keep alive response.
+2024-02-15T12:20:32.8240248-03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71 - 404 0 - 29.0397ms
+2024-02-15T12:20:32.8274917-03:00 [DBG] Connection id ""0HN1E4VK05RN2"", Request id ""0HN1E4VK05RN2:00000005"": started reading request body.
+2024-02-15T12:20:32.8634215-03:00 [DBG] Connection id ""0HN1E4VK05RN2"", Request id ""0HN1E4VK05RN2:00000005"": done reading request body.
+2024-02-15T12:21:33.4518412-03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - -
+2024-02-15T12:21:33.4917417-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T12:21:33.4977492-03:00 [DBG] Request did not match any endpoints
+2024-02-15T12:21:33.5000778-03:00 [DBG] "OPTIONS" requests are not supported
+2024-02-15T12:21:33.5024584-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T12:21:33.5059804-03:00 [INF] CORS policy execution successful.
+2024-02-15T12:21:33.5090566-03:00 [DBG] The request is a preflight request.
+2024-02-15T12:21:33.5123658-03:00 [DBG] Connection id ""0HN1E4VK05RN2"" completed keep alive response.
+2024-02-15T12:21:33.5159432-03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:7008/Usuario/Autenticacao - - - 204 - - 64.8647ms
+2024-02-15T12:21:33.5183445-03:00 [INF] Request starting HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71
+2024-02-15T12:21:33.5208632-03:00 [DBG] No candidates found for the request path '"/Usuario/Autenticacao"'
+2024-02-15T12:21:33.5248535-03:00 [DBG] Request did not match any endpoints
+2024-02-15T12:21:33.5280316-03:00 [DBG] "POST" requests are not supported
+2024-02-15T12:21:33.5306688-03:00 [DBG] The request has an origin header: '"http://localhost:3000"'.
+2024-02-15T12:21:33.5350181-03:00 [INF] CORS policy execution successful.
+2024-02-15T12:21:33.5377749-03:00 [DBG] Connection id ""0HN1E4VK05RN2"" completed keep alive response.
+2024-02-15T12:21:33.5470594-03:00 [INF] Request finished HTTP/1.1 POST http://localhost:7008/Usuario/Autenticacao application/json 71 - 404 0 - 28.7059ms
+2024-02-15T12:21:33.5506673-03:00 [DBG] Connection id ""0HN1E4VK05RN2"", Request id ""0HN1E4VK05RN2:00000007"": started reading request body.
+2024-02-15T12:21:33.5560293-03:00 [DBG] Connection id ""0HN1E4VK05RN2"", Request id ""0HN1E4VK05RN2:00000007"": done reading request body.
+2024-02-15T15:41:27.8739362-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T15:41:27.9718244-03:00 [DBG] Hosting starting
+2024-02-15T15:41:28.1694013-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T15:41:28.1717093-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T15:41:28.1738250-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T15:41:28.1765896-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T15:41:28.1796433-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T15:41:28.1845649-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T15:41:28.1890702-03:00 [INF] Hosting environment: "Development"
+2024-02-15T15:41:28.1925174-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T15:41:28.1951711-03:00 [DBG] Hosting started
+2024-02-15T15:41:28.2550875-03:00 [DBG] Connection id ""0HN1EAMS87D4H"" accepted.
+2024-02-15T15:41:28.2706029-03:00 [DBG] Connection id ""0HN1EAMS87D4H"" started.
+2024-02-15T15:41:28.2873807-03:00 [DBG] Connection id ""0HN1EAMS87D4H"" received FIN.
+2024-02-15T15:41:28.2956618-03:00 [DBG] Connection id ""0HN1EAMS87D4H"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T15:41:28.3001968-03:00 [DBG] Connection id ""0HN1EAMS87D4H"" disconnecting.
+2024-02-15T15:41:28.3052102-03:00 [DBG] Connection id ""0HN1EAMS87D4H"" stopped.
+2024-02-15T15:41:29.4638318-03:00 [DBG] Connection id ""0HN1EAMS87D4I"" accepted.
+2024-02-15T15:41:29.4768470-03:00 [DBG] Connection id ""0HN1EAMS87D4I"" started.
+2024-02-15T15:41:29.5413733-03:00 [DBG] Connection id ""0HN1EAMS87D4J"" accepted.
+2024-02-15T15:41:29.5629432-03:00 [DBG] Connection id ""0HN1EAMS87D4J"" started.
+2024-02-15T15:41:29.6096882-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T15:41:29.9112526-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T15:41:29.9468031-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T15:41:29.9501564-03:00 [DBG] Request did not match any endpoints
+2024-02-15T15:41:30.2731825-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T15:41:30.3123189-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T15:41:30.3223735-03:00 [DBG] Connection id ""0HN1EAMS87D4K"" accepted.
+2024-02-15T15:41:30.3484310-03:00 [DBG] Connection id ""0HN1EAMS87D4I"" completed keep alive response.
+2024-02-15T15:41:30.3533926-03:00 [DBG] Connection id ""0HN1EAMS87D4K"" started.
+2024-02-15T15:41:30.3345640-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T15:41:30.3617521-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 755.9231ms
+2024-02-15T15:41:30.3672132-03:00 [DBG] Connection id ""0HN1EAMS87D4J"" completed keep alive response.
+2024-02-15T15:41:30.3600863-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T15:41:30.3763713-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 41.7109ms
+2024-02-15T15:41:30.5797706-03:00 [DBG] Connection id ""0HN1EAMS87D4K"" completed keep alive response.
+2024-02-15T15:41:30.5863790-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 226.0521ms
+2024-02-15T15:41:30.7086807-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T15:41:30.7147918-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T15:41:30.7211225-03:00 [DBG] Request did not match any endpoints
+2024-02-15T15:41:30.9426074-03:00 [ERR] An unhandled exception has occurred while executing the request.
+2024-02-15T15:41:31.0602604-03:00 [DBG] Connection id ""0HN1EAMS87D4K"" completed keep alive response.
+2024-02-15T15:41:31.0648987-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 356.1953ms
+2024-02-15T15:43:35.3814770-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T15:43:35.4816668-03:00 [DBG] Hosting starting
+2024-02-15T15:43:35.6267959-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T15:43:35.6289776-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T15:43:35.6308421-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T15:43:35.6329324-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T15:43:35.6347359-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T15:43:35.6373407-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T15:43:35.6399153-03:00 [INF] Hosting environment: "Development"
+2024-02-15T15:43:35.6421346-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T15:43:35.6439126-03:00 [DBG] Hosting started
+2024-02-15T15:43:35.9054913-03:00 [DBG] Connection id ""0HN1EAO29J4TF"" accepted.
+2024-02-15T15:43:35.9098092-03:00 [DBG] Connection id ""0HN1EAO29J4TF"" started.
+2024-02-15T15:43:35.9221168-03:00 [DBG] Connection id ""0HN1EAO29J4TF"" received FIN.
+2024-02-15T15:43:35.9307436-03:00 [DBG] Connection id ""0HN1EAO29J4TF"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T15:43:35.9376273-03:00 [DBG] Connection id ""0HN1EAO29J4TF"" disconnecting.
+2024-02-15T15:43:35.9425471-03:00 [DBG] Connection id ""0HN1EAO29J4TF"" stopped.
+2024-02-15T15:43:38.0739885-03:00 [DBG] Connection id ""0HN1EAO29J4TG"" accepted.
+2024-02-15T15:43:38.0948881-03:00 [DBG] Connection id ""0HN1EAO29J4TG"" started.
+2024-02-15T15:43:38.1408959-03:00 [DBG] Connection id ""0HN1EAO29J4TH"" accepted.
+2024-02-15T15:43:38.1750389-03:00 [DBG] Connection id ""0HN1EAO29J4TH"" started.
+2024-02-15T15:43:38.2660441-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T15:43:38.4762037-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T15:43:38.5389750-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T15:43:38.5423789-03:00 [DBG] Request did not match any endpoints
+2024-02-15T15:43:38.8002105-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T15:43:38.8603941-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T15:43:38.8871798-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T15:43:38.8769228-03:00 [DBG] Connection id ""0HN1EAO29J4TI"" accepted.
+2024-02-15T15:43:38.8897574-03:00 [DBG] Connection id ""0HN1EAO29J4TG"" completed keep alive response.
+2024-02-15T15:43:38.8960535-03:00 [DBG] Connection id ""0HN1EAO29J4TI"" started.
+2024-02-15T15:43:38.8967344-03:00 [DBG] Connection id ""0HN1EAO29J4TH"" completed keep alive response.
+2024-02-15T15:43:38.9008893-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T15:43:38.9046716-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 16.5991ms
+2024-02-15T15:43:38.9055906-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 644.7581ms
+2024-02-15T15:43:39.1296964-03:00 [DBG] Connection id ""0HN1EAO29J4TI"" completed keep alive response.
+2024-02-15T15:43:39.1349012-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 233.9098ms
+2024-02-15T15:43:39.2122411-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T15:43:39.2152648-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T15:43:39.2177224-03:00 [DBG] Request did not match any endpoints
+2024-02-15T15:43:39.4177038-03:00 [DBG] Connection id ""0HN1EAO29J4TI"" completed keep alive response.
+2024-02-15T15:43:39.4251793-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 212.8731ms
+2024-02-15T16:10:02.1136956-03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-15T16:10:02.3136552-03:00 [DBG] Hosting starting
+2024-02-15T16:10:02.5332600-03:00 [DBG] Connection id ""0HN1EB6R4SQD6"" received FIN.
+2024-02-15T16:10:02.5429939-03:00 [INF] Now listening on: "http://localhost:7008"
+2024-02-15T16:10:02.5456253-03:00 [DBG] Connection id ""0HN1EB6R4SQD6"" accepted.
+2024-02-15T16:10:02.5456241-03:00 [INF] Now listening on: "http://localhost:5225"
+2024-02-15T16:10:02.5509837-03:00 [DBG] Connection id ""0HN1EB6R4SQD6"" started.
+2024-02-15T16:10:02.5524374-03:00 [DBG] Loaded hosting startup assembly "PedagioPayApiControlador"
+2024-02-15T16:10:02.5581345-03:00 [DBG] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-02-15T16:10:02.5609199-03:00 [DBG] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-02-15T16:10:02.5639462-03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15T16:10:02.5704710-03:00 [INF] Hosting environment: "Development"
+2024-02-15T16:10:02.5706343-03:00 [DBG] Connection id ""0HN1EB6R4SQD6"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-02-15T16:10:02.5732788-03:00 [INF] Content root path: "C:\PedagioPayApiControlador\PedagioPayApiControlador\"
+2024-02-15T16:10:02.5783897-03:00 [DBG] Connection id ""0HN1EB6R4SQD6"" disconnecting.
+2024-02-15T16:10:02.5819963-03:00 [DBG] Hosting started
+2024-02-15T16:10:02.6039261-03:00 [DBG] Connection id ""0HN1EB6R4SQD6"" stopped.
+2024-02-15T16:10:04.3570265-03:00 [DBG] Connection id ""0HN1EB6R4SQD7"" accepted.
+2024-02-15T16:10:04.5077742-03:00 [DBG] Connection id ""0HN1EB6R4SQD8"" accepted.
+2024-02-15T16:10:04.6008265-03:00 [DBG] Connection id ""0HN1EB6R4SQD7"" started.
+2024-02-15T16:10:04.6632130-03:00 [DBG] Connection id ""0HN1EB6R4SQD8"" started.
+2024-02-15T16:10:04.7967190-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/index.html - -
+2024-02-15T16:10:05.0330145-03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-15T16:10:05.0636449-03:00 [DBG] No candidates found for the request path '"/swagger/index.html"'
+2024-02-15T16:10:05.0675067-03:00 [DBG] Request did not match any endpoints
+2024-02-15T16:10:05.3720673-03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-15T16:10:05.4214821-03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-15T16:10:05.4329222-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - -
+2024-02-15T16:10:05.4597341-03:00 [DBG] Connection id ""0HN1EB6R4SQD7"" completed keep alive response.
+2024-02-15T16:10:05.4458763-03:00 [DBG] Connection id ""0HN1EB6R4SQD9"" accepted.
+2024-02-15T16:10:05.4698316-03:00 [DBG] Connection id ""0HN1EB6R4SQD8"" completed keep alive response.
+2024-02-15T16:10:05.4728244-03:00 [DBG] Connection id ""0HN1EB6R4SQD9"" started.
+2024-02-15T16:10:05.4757430-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 42.7033ms
+2024-02-15T16:10:05.4796810-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/_vs/browserLink - -
+2024-02-15T16:10:05.4710542-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/index.html - - - 200 - text/html;charset=utf-8 679.6715ms
+2024-02-15T16:10:05.6074541-03:00 [DBG] Connection id ""0HN1EB6R4SQD9"" completed keep alive response.
+2024-02-15T16:10:05.6223925-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 142.4655ms
+2024-02-15T16:10:05.7148932-03:00 [INF] Request starting HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - -
+2024-02-15T16:10:05.7206830-03:00 [DBG] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-02-15T16:10:05.7238966-03:00 [DBG] Request did not match any endpoints
+2024-02-15T16:10:05.9843250-03:00 [DBG] Connection id ""0HN1EB6R4SQD9"" completed keep alive response.
+2024-02-15T16:10:05.9942232-03:00 [INF] Request finished HTTP/1.1 GET http://localhost:7008/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 279.2780ms
